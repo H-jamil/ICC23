@@ -4,28 +4,51 @@ import numpy as np
 from transferClass import *
 import random
 import copy
+import pandas as pd
 class transferEnv(gym.Env):
   metadata={'render.modes':  []}
 
-  def __init__(self,transferClassObject):
+  def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv",runTime=200,identity=''):
     self.transferClassObject=transferClassObject
     self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
-    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3,7), dtype=np.float32)
-    self.current_observation = np.zeros([3,7],dtype = np.float32)
+    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3,6), dtype=np.float32)
+    self.current_observation = np.zeros([3,6],dtype = np.float32)
+    self.identifier=identity
+    self.record_file_name=self.identifier+record_name
+    self.run_time=runTime
+    dummy_list=[]
+    self.episode_time=None
+    df = pd.DataFrame(dummy_list, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+    df.to_csv(self.record_file_name, sep='\t', encoding='utf-8',index=False)
 
   def reset(self):
+    list_main=[]
+    if len(self.transferClassObject.throughput_logs) > 0:
+      for i in range(len(self.transferClassObject.throughput_logs)):
+        list_main.append(self.transferClassObject.throughput_logs[i])
+    df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+    mod_df=df.fillna(0)
+    mod_df.to_csv(self.record_file_name, mode='a', index=False, header=False, sep='\t', encoding='utf-8')
     self.current_observation=self.transferClassObject.reset()
     self.workers,self.reporting_process=self.transferClassObject.run()
+    self.episode_time=time.time()
     return self.current_observation
 
   def step(self,action):
     info={}
+    if (self.episode_time + self.run_time <= time.time()):
+      self.transferClassObject.file_incomplete.value=0
+      self.transferClassObject.log.info("episode expires")
+      done=True
+      score_=10 ** 10
+      self.close()
+      return np.zeros([3,6],dtype = np.float32),float(score_),done,info
     if self.transferClassObject.file_incomplete.value != 0:
       done = False
       self.transferClassObject.log.info(f"Changing concurrency to {action} ******")
       self.transferClassObject.change_concurrency([action])
       timer3s=time.time()
-      while timer3s + 3.5 > time.time():
+      while timer3s + 3.2 > time.time():
         pass
       if len(self.transferClassObject.throughput_logs)>=3:
         log_list=copy.deepcopy(self.transferClassObject.throughput_logs[-3:])
@@ -43,7 +66,7 @@ class transferEnv(gym.Env):
     else:
       done=True
       score_=10 ** 10
-      return np.zeros([3,7],dtype = np.float32),score_,done,info
+      return np.zeros([3,6],dtype = np.float32),score_,done,info
 
   def bayes_step(self,action):
     params = [1 if x<1 else int(np.round(x)) for x in action]

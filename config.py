@@ -13,6 +13,6 @@ configurations = {
     "K": 1.02,
     "loglevel": "info",
     "probing_sec": 3,
-    "multiplier": 1,
+    "multiplier": 8,
     "max_cc":32,
 }
