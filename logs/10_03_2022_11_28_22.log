@@ -1,0 +1,134 @@
+1664818102.977853 -- INFO: Changing concurrency to 1 ******
+1664818102.980796 -- INFO: Start Process :: 0
+1664818102.987446 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818103.000799 -- INFO: Active CC: 1
+1664818103.020648 -- INFO: Process 0 get item 0 from queue and executing
+1664818103.021059 -- INFO: starting 0, 0, /users/jamilm/files_to_Send/FILE2
+1664818103.049726 -- INFO: Throughput @0.1s:0.0Mbps, rtt :38.55ms cwnd: 10.0 lossRate: 0.0 CC:1 score:-0.0 
+1664818104.044707 -- INFO: Throughput @1.1s:134.22Mbps, rtt :38.9ms cwnd: 795.0 lossRate: 0.0 CC:1 score:-132.0 
+1664818105.046046 -- INFO: Throughput @2.1s:402.65Mbps, rtt :39.23ms cwnd: 2223.0 lossRate: 0.0 CC:1 score:-395.0 
+1664818106.044345 -- INFO: Throughput @3.1s:595.59Mbps, rtt :39.52ms cwnd: 2223.0 lossRate: 0.0 CC:1 score:-584.0 
+1664818106.203784 -- INFO: Changing concurrency to 3 ******
+1664818106.206817 -- INFO: Start Process :: 2
+1664818106.207313 -- INFO: Start Process :: 1
+1664818106.210302 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818106.216150 -- INFO: Active CC: 3
+1664818106.247066 -- INFO: Process 2 get item 1 from queue and executing
+1664818106.247481 -- INFO: Process 1 get item 2 from queue and executing
+1664818106.247879 -- INFO: starting 1, 2, /users/jamilm/files_to_Send/FILE0
+1664818106.247913 -- INFO: starting 2, 1, /users/jamilm/files_to_Send/FILE1
+1664818107.046324 -- INFO: Throughput @4.1s:763.36Mbps, rtt :39.57ms cwnd: 1134.7 lossRate: 0.0 CC:3 score:-719.0 
+1664818108.048077 -- INFO: Throughput @5.1s:931.14Mbps, rtt :40.85ms cwnd: 1354.0 lossRate: 0.0 CC:3 score:-877.0 
+1664818109.048983 -- INFO: Throughput @6.1s:947.91Mbps, rtt :40.86ms cwnd: 1354.0 lossRate: 0.0 CC:3 score:-893.0 
+1664818109.417258 -- INFO: Gradient: -229.66666666666666, Gredient Change: 0.6201620162016201, Theta: 1, Previous CC: 2, Choosen CC: 4
+1664818109.417366 -- INFO: Changing concurrency to 3 ******
+1664818109.425082 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818109.432044 -- INFO: Active CC: 3
+1664818110.048131 -- INFO: Throughput @7.1s:939.52Mbps, rtt :40.85ms cwnd: 1354.0 lossRate: 0.0 CC:3 score:-885.0 
+1664818111.048244 -- INFO: Throughput @8.1s:947.91Mbps, rtt :40.79ms cwnd: 1354.0 lossRate: 0.0 CC:3 score:-893.0 
+1664818112.053316 -- INFO: Throughput @9.1s:947.91Mbps, rtt :40.83ms cwnd: 1354.0 lossRate: 0.0 CC:3 score:-893.0 
+1664818112.633154 -- INFO: Changing concurrency to 5 ******
+1664818112.636572 -- INFO: Start Process :: 4
+1664818112.636652 -- INFO: Start Process :: 3
+1664818112.640353 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818112.645112 -- INFO: Active CC: 5
+1664818112.677315 -- INFO: Process 4 get item 3 from queue and executing
+1664818112.678061 -- INFO: Process 3 get item 4 from queue and executing
+1664818112.678424 -- INFO: starting 3, 4, /users/jamilm/files_to_Send/FILE2
+1664818112.678431 -- INFO: starting 4, 3, /users/jamilm/files_to_Send/FILE3
+1664818113.052337 -- INFO: Throughput @10.1s:947.91Mbps, rtt :41.18ms cwnd: 937.6 lossRate: 0.0 CC:5 score:-859.0 
+1664818114.052742 -- INFO: Throughput @11.1s:956.3Mbps, rtt :41.64ms cwnd: 1022.0 lossRate: 0.0 CC:5 score:-866.0 
+1664818115.055189 -- INFO: Throughput @12.1s:939.52Mbps, rtt :41.56ms cwnd: 1022.0 lossRate: 0.0 CC:5 score:-851.0 
+1664818115.846105 -- INFO: Gradient: 15.833333333333371, Gredient Change: 0.017783601647323143, Theta: -1, Previous CC: 4, Choosen CC: 3
+1664818115.846201 -- INFO: Changing concurrency to 2 ******
+1664818115.851924 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818115.858197 -- INFO: Active CC: 2
+1664818116.052053 -- INFO: Throughput @13.1s:897.58Mbps, rtt :39.79ms cwnd: 1175.0 lossRate: 0 CC:2 score:-863.0 
+1664818117.057361 -- INFO: Throughput @14.1s:939.52Mbps, rtt :41.68ms cwnd: 2006.5 lossRate: 0.0 CC:2 score:-903.0 
+1664818118.055582 -- INFO: Throughput @15.1s:939.52Mbps, rtt :41.72ms cwnd: 2006.5 lossRate: 0.0 CC:2 score:-903.0 
+1664818119.056158 -- INFO: Throughput @16.1s:939.52Mbps, rtt :41.73ms cwnd: 2006.5 lossRate: 0.0 CC:2 score:-903.0 
+1664818119.059217 -- INFO: Changing concurrency to 4 ******
+1664818119.060386 -- INFO: Start Process :: 3
+1664818119.060529 -- INFO: Start Process :: 2
+1664818119.067570 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818119.074878 -- INFO: Active CC: 4
+1664818119.100140 -- INFO: Process 3 get item 5 from queue and executing
+1664818119.100266 -- INFO: Process 2 get item 6 from queue and executing
+1664818119.100690 -- INFO: starting 3, 5, /users/jamilm/files_to_Send/FILE1
+1664818119.100802 -- INFO: starting 2, 6, /users/jamilm/files_to_Send/FILE0
+1664818120.057284 -- INFO: Throughput @17.1s:981.47Mbps, rtt :41.23ms cwnd: 1317.2 lossRate: 0.0 CC:4 score:-907.0 
+1664818121.062227 -- INFO: Throughput @18.1s:947.91Mbps, rtt :42.76ms cwnd: 1484.0 lossRate: 0.0 CC:4 score:-876.0 
+1664818122.061873 -- INFO: Throughput @19.1s:939.52Mbps, rtt :42.61ms cwnd: 1496.2 lossRate: 0.0 CC:4 score:-868.0 
+1664818122.275882 -- INFO: Gradient: 9.666666666666686, Gredient Change: 0.010705057216685144, Theta: -2, Previous CC: 3, Choosen CC: 2
+1664818122.275980 -- INFO: Changing concurrency to 1 ******
+1664818122.280795 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818122.286777 -- INFO: Active CC: 1
+1664818122.473859 -- INFO: Process 0 finished on working on file 0 
+1664818122.474717 -- INFO: Process 0 get item 7 from queue and executing
+1664818122.475214 -- INFO: starting 0, 7, /users/jamilm/files_to_Send/FILE3
+1664818123.042462 -- INFO: episode expires
+1664818123.042523 -- INFO: Process 2 shutdown itself from outest loop
+1664818123.043061 -- INFO: Process 1 shutdown itself from outest loop
+1664818123.043051 -- INFO: Process 4 shutdown itself from outest loop
+1664818123.042901 -- INFO: Process 19 shutdown itself from outest loop
+1664818123.043069 -- INFO: Process 17 shutdown itself from outest loop
+1664818123.043608 -- INFO: Process 3 shutdown itself from outest loop
+1664818123.043510 -- INFO: Process 7 shutdown itself from outest loop
+1664818123.043927 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.043977 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.043417 -- INFO: Process 16 shutdown itself from outest loop
+1664818123.043729 -- INFO: Process 10 shutdown itself from outest loop
+1664818123.044347 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044457 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044431 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044120 -- INFO: Process 21 shutdown itself from outest loop
+1664818123.044057 -- INFO: Process 30 shutdown itself from outest loop
+1664818123.044564 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044610 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044660 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045012 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044472 -- INFO: Process 23 shutdown itself from outest loop
+1664818123.045094 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045119 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044453 -- INFO: Process 22 shutdown itself from outest loop
+1664818123.044852 -- INFO: Process 29 shutdown itself from outest loop
+1664818123.045494 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044915 -- INFO: Process 31 shutdown itself from outest loop
+1664818123.044705 -- INFO: Process 24 shutdown itself from outest loop
+1664818123.045717 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045381 -- INFO: Process 12 shutdown itself from outest loop
+1664818123.045846 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044265 -- INFO: Process 6 shutdown itself from outest loop
+1664818123.045986 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045958 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.046036 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.044405 -- INFO: Process 5 shutdown itself from outest loop
+1664818123.044698 -- INFO: Process 13 shutdown itself from outest loop
+1664818123.046468 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045357 -- INFO: Process 9 shutdown itself from outest loop
+1664818123.045113 -- INFO: Process 20 shutdown itself from outest loop
+1664818123.045248 -- INFO: Process 8 shutdown itself from outest loop
+1664818123.046886 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045404 -- INFO: Process 11 shutdown itself from outest loop
+1664818123.047122 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.047155 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.047456 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.047554 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045988 -- INFO: Process 14 shutdown itself from outest loop
+1664818123.046538 -- INFO: Process 15 shutdown itself from outest loop
+1664818123.047858 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.046594 -- INFO: Process 18 shutdown itself from outest loop
+1664818123.044640 -- INFO: Process 25 shutdown itself from outest loop
+1664818123.048401 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.048389 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.047108 -- INFO: Process 28 shutdown itself from outest loop
+1664818123.048537 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.048640 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.049160 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.045827 -- INFO: Process 26 shutdown itself from outest loop
+1664818123.050224 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818123.050241 -- INFO: Process 27 shutdown itself from outest loop
+1664818123.050796 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664818125.487903 -- INFO: episode expires
+1664818125.499312 -- INFO: GD Optimizer Exits ...
+1664818125.734351 -- INFO: Throughput @0.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:-0.0 
