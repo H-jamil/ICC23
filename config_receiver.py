@@ -1,9 +1,9 @@
 configurations = {
     "receiver": {
-        "host": "128.110.218.223",
-        "port": 50028
+        "host": "127.0.0.1",
+        "port": 5028
     },
-    "data_dir": "/users/jamilm/received_files/",
+    "data_dir": "/home/cc/received_files/",
     "max_cc": 32,
     "file_transfer": False,
     "loglevel": "info",

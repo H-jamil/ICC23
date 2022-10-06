@@ -1,0 +1,980 @@
+1665028917.561610 -- INFO: Changing concurrency to 1 ******
+1665028917.563143 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665028917.563067 -- INFO: Start Process :: 0
+1665028917.564845 -- INFO: Active CC: 1
+1665028917.597460 -- INFO: Process 0 get item 0 from queue and executing
+1665028917.597630 -- INFO: starting 0, 0, /home/cc/files_to_send/FILE3
+1665028917.619089 -- INFO: Throughput @0.1s:0.0Mbps, rtt :33.78ms cwnd: 10.0 lossRate: 0.0 CC:1 score:-0.0 
+1665028918.617534 -- INFO: Throughput @1.1s:511.71Mbps, rtt :34.76ms cwnd: 2205.0 lossRate: 0.0 CC:1 score:-502.0 
+1665028919.619312 -- INFO: Throughput @2.1s:704.64Mbps, rtt :34.53ms cwnd: 2205.0 lossRate: 0.0 CC:1 score:-691.0 
+1665028920.619687 -- INFO: Throughput @3.1s:721.42Mbps, rtt :34.1ms cwnd: 2205.0 lossRate: 0.0 CC:1 score:-707.0 
+1665028920.766023 -- INFO: Changing concurrency to 2 ******
+1665028920.767154 -- INFO: Start Process :: 1
+1665028920.767666 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665028920.769131 -- INFO: Active CC: 2
+1665028920.801668 -- INFO: Process 1 get item 1 from queue and executing
+1665028920.801955 -- INFO: starting 1, 1, /home/cc/files_to_send/FILE1
+1665028921.621581 -- INFO: Throughput @4.1s:989.86Mbps, rtt :34.11ms cwnd: 1737.0 lossRate: 2.337158482716713e-05 CC:2 score:-951.0 
+1665028922.623050 -- INFO: Throughput @5.1s:1149.24Mbps, rtt :34.24ms cwnd: 1743.5 lossRate: 0.0 CC:2 score:-1105.0 
+1665028923.622752 -- INFO: Throughput @6.1s:1149.24Mbps, rtt :34.11ms cwnd: 1750.0 lossRate: 0.0 CC:2 score:-1105.0 
+1665028923.969832 -- INFO: Gradient_Fast: -420.33333333333337, Gredient_Fast Change: 0.6636842105263158, Theta: 1, Previous CC: 2, Choosen CC: 4
+1665028923.969935 -- INFO: Changing concurrency to 4 ******
+1665028923.971173 -- INFO: Start Process :: 3
+1665028923.971274 -- INFO: Start Process :: 2
+1665028923.971501 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665028923.972808 -- INFO: Active CC: 4
+1665028924.005063 -- INFO: Process 2 get item 2 from queue and executing
+1665028924.005256 -- INFO: starting 2, 2, /home/cc/files_to_send/FILE0
+1665028924.005577 -- INFO: Process 3 get item 3 from queue and executing
+1665028924.005814 -- INFO: starting 3, 3, /home/cc/files_to_send/FILE2
+1665028924.623799 -- INFO: Throughput @7.1s:1560.28Mbps, rtt :34.42ms cwnd: 1729.0 lossRate: 5.117931770658166e-05 CC:4 score:-1441.0 
+1665028925.625436 -- INFO: Throughput @8.1s:2332.03Mbps, rtt :33.97ms cwnd: 1750.0 lossRate: 0.0 CC:4 score:-2154.0 
+1665028926.625771 -- INFO: Throughput @9.1s:2323.64Mbps, rtt :34.53ms cwnd: 1757.0 lossRate: 0.0 CC:4 score:-2147.0 
+1665028927.181597 -- INFO: Gradient_Fast: -430.16666666666663, Gredient_Fast Change: 0.4082568807339449, Theta: 2, Previous CC: 4, Choosen CC: 8
+1665028927.183070 -- INFO: Changing concurrency to 8 ******
+1665028927.184993 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665028927.185234 -- INFO: Start Process :: 4
+1665028927.185920 -- INFO: Start Process :: 7
+1665028927.186013 -- INFO: Start Process :: 5
+1665028927.186636 -- INFO: Active CC: 8
+1665028927.187163 -- INFO: Start Process :: 6
+1665028927.220566 -- INFO: Process 5 get item 4 from queue and executing
+1665028927.220669 -- INFO: Process 7 get item 5 from queue and executing
+1665028927.220733 -- INFO: Process 4 get item 6 from queue and executing
+1665028927.220756 -- INFO: starting 5, 4, /home/cc/files_to_send/FILE3
+1665028927.220829 -- INFO: starting 7, 5, /home/cc/files_to_send/FILE1
+1665028927.220952 -- INFO: starting 4, 6, /home/cc/files_to_send/FILE0
+1665028927.222136 -- INFO: Process 6 get item 7 from queue and executing
+1665028927.222474 -- INFO: starting 6, 7, /home/cc/files_to_send/FILE2
+1665028927.628075 -- INFO: Throughput @10.1s:2625.63Mbps, rtt :34.12ms cwnd: 1466.6 lossRate: 0.0 CC:8 score:-2241.0 
+1665028928.628779 -- INFO: Throughput @11.1s:4462.74Mbps, rtt :34.45ms cwnd: 1749.0 lossRate: 0.0 CC:8 score:-3809.0 
+1665028929.076708 -- INFO: Process 0 finished on working on file 0 
+1665028929.077156 -- INFO: Process 0 get item 8 from queue and executing
+1665028929.077471 -- INFO: starting 0, 8, /home/cc/files_to_send/FILE3
+1665028929.630159 -- INFO: Throughput @12.1s:4527.12Mbps, rtt :34.54ms cwnd: 1762.9 lossRate: 0.0 CC:8 score:-3864.0 
+1665028930.387685 -- INFO: Gradient_Fast: -347.66666666666663, Gredient_Fast Change: 0.18164402647161265, Theta: 3, Previous CC: 8, Choosen CC: 14
+1665028930.387898 -- INFO: Changing concurrency to 14 ******
+1665028930.389292 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665028930.390063 -- INFO: Start Process :: 8
+1665028930.390289 -- INFO: Active CC: 14
+1665028930.390434 -- INFO: Start Process :: 12
+1665028930.390585 -- INFO: Start Process :: 10
+1665028930.390950 -- INFO: Start Process :: 9
+1665028930.391436 -- INFO: Start Process :: 11
+1665028930.391783 -- INFO: Start Process :: 13
+1665028930.423723 -- INFO: Process 8 get item 9 from queue and executing
+1665028930.423906 -- INFO: starting 8, 9, /home/cc/files_to_send/FILE1
+1665028930.424310 -- INFO: Process 10 get item 10 from queue and executing
+1665028930.424496 -- INFO: starting 10, 10, /home/cc/files_to_send/FILE0
+1665028930.424933 -- INFO: Process 12 get item 11 from queue and executing
+1665028930.425090 -- INFO: starting 12, 11, /home/cc/files_to_send/FILE2
+1665028930.426014 -- INFO: Process 13 get item 12 from queue and executing
+1665028930.426205 -- INFO: starting 13, 12, /home/cc/files_to_send/FILE3
+1665028930.426812 -- INFO: Process 9 get item 13 from queue and executing
+1665028930.426891 -- INFO: Process 11 get item 14 from queue and executing
+1665028930.426965 -- INFO: starting 9, 13, /home/cc/files_to_send/FILE1
+1665028930.427066 -- INFO: starting 11, 14, /home/cc/files_to_send/FILE0
+1665028930.631286 -- INFO: Throughput @13.1s:4689.23Mbps, rtt :34.27ms cwnd: 1185.3 lossRate: 0.0 CC:14 score:-3554.0 
+1665028931.631954 -- INFO: Throughput @14.1s:7524.58Mbps, rtt :34.63ms cwnd: 1798.4 lossRate: 1.2164506706444604e-05 CC:14 score:-5702.0 
+1665028932.632541 -- INFO: Throughput @15.1s:8011.12Mbps, rtt :35.9ms cwnd: 1819.1 lossRate: 0.0 CC:14 score:-6071.0 
+1665028933.591687 -- INFO: Gradient_Fast: -300.72222222222223, Gredient_Fast Change: 0.09099926030529218, Theta: 4, Previous CC: 14, Choosen CC: 22
+1665028933.591893 -- INFO: Changing concurrency to 22 ******
+1665028933.592923 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1665028933.593817 -- INFO: Active CC: 22
+1665028933.593837 -- INFO: Start Process :: 14
+1665028933.594924 -- INFO: Start Process :: 15
+1665028933.595010 -- INFO: Start Process :: 16
+1665028933.597398 -- INFO: Start Process :: 17
+1665028933.597683 -- INFO: Start Process :: 20
+1665028933.598056 -- INFO: Start Process :: 18
+1665028933.598307 -- INFO: Start Process :: 19
+1665028933.599278 -- INFO: Start Process :: 21
+1665028933.629572 -- INFO: Process 14 get item 15 from queue and executing
+1665028933.629761 -- INFO: starting 14, 15, /home/cc/files_to_send/FILE2
+1665028933.630885 -- INFO: Process 15 get item 16 from queue and executing
+1665028933.630972 -- INFO: Process 16 get item 17 from queue and executing
+1665028933.631055 -- INFO: starting 15, 16, /home/cc/files_to_send/FILE3
+1665028933.631169 -- INFO: starting 16, 17, /home/cc/files_to_send/FILE1
+1665028933.631446 -- INFO: Process 17 get item 18 from queue and executing
+1665028933.631620 -- INFO: starting 17, 18, /home/cc/files_to_send/FILE0
+1665028933.632333 -- INFO: Process 18 get item 19 from queue and executing
+1665028933.632629 -- INFO: starting 18, 19, /home/cc/files_to_send/FILE2
+1665028933.632683 -- INFO: Throughput @16.1s:8027.9Mbps, rtt :34.82ms cwnd: 1123.5 lossRate: 4.6281230791481364e-05 CC:22 score:-5189.0 
+1665028933.632709 -- INFO: Process 20 get item 20 from queue and executing
+1665028933.632869 -- INFO: starting 20, 20, /home/cc/files_to_send/FILE3
+1665028933.632992 -- INFO: Process 19 get item 21 from queue and executing
+1665028933.633158 -- INFO: starting 19, 21, /home/cc/files_to_send/FILE1
+1665028933.634505 -- INFO: Process 21 get item 22 from queue and executing
+1665028933.634866 -- INFO: starting 21, 22, /home/cc/files_to_send/FILE0
+1665028934.633895 -- INFO: Throughput @17.1s:8690.6Mbps, rtt :39.82ms cwnd: 1370.9 lossRate: 0.00018501734872820684 CC:22 score:-5605.0 
+1665028935.596475 -- INFO: Process 2 finished on working on file 2 
+1665028935.596934 -- INFO: Process 2 get item 23 from queue and executing
+1665028935.597202 -- INFO: starting 2, 23, /home/cc/files_to_send/FILE2
+1665028935.636916 -- INFO: Throughput @18.1s:8805.31Mbps, rtt :39.32ms cwnd: 1400.7 lossRate: 1.1847888903662183e-05 CC:22 score:-5695.0 
+1665028936.638915 -- INFO: Throughput @19.1s:8782.87Mbps, rtt :38.38ms cwnd: 1373.2 lossRate: 0.00011193017663898699 CC:22 score:-5671.0 
+1665028936.794848 -- INFO: Gradient_Fast: -68.5, Gredient_Fast Change: 0.013407711880994324, Theta: 5, Previous CC: 22, Choosen CC: 27
+1665028936.795023 -- INFO: Changing concurrency to 27 ******
+1665028936.795604 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1665028936.796076 -- INFO: Active CC: 27
+1665028936.797313 -- INFO: Start Process :: 23
+1665028936.797530 -- INFO: Start Process :: 22
+1665028936.797688 -- INFO: Start Process :: 24
+1665028936.798089 -- INFO: Start Process :: 26
+1665028936.799288 -- INFO: Start Process :: 25
+1665028936.835249 -- INFO: Process 23 get item 24 from queue and executing
+1665028936.835424 -- INFO: starting 23, 24, /home/cc/files_to_send/FILE3
+1665028936.835583 -- INFO: Process 24 get item 25 from queue and executing
+1665028936.835767 -- INFO: starting 24, 25, /home/cc/files_to_send/FILE1
+1665028936.837338 -- INFO: Process 22 get item 26 from queue and executing
+1665028936.837655 -- INFO: starting 22, 26, /home/cc/files_to_send/FILE0
+1665028936.837754 -- INFO: Process 26 get item 27 from queue and executing
+1665028936.838141 -- INFO: starting 26, 27, /home/cc/files_to_send/FILE2
+1665028936.838788 -- INFO: Process 25 get item 28 from queue and executing
+1665028936.839093 -- INFO: starting 25, 28, /home/cc/files_to_send/FILE3
+1665028937.638469 -- INFO: Throughput @20.1s:8455.72Mbps, rtt :46.41ms cwnd: 1236.4 lossRate: 5.639227013272815e-05 CC:27 score:-4949.0 
+1665028938.641937 -- INFO: Throughput @21.1s:8397.0Mbps, rtt :44.93ms cwnd: 1199.8 lossRate: 6.369259185925598e-05 CC:27 score:-4914.0 
+1665028939.290852 -- INFO: Process 1 finished on working on file 1 
+1665028939.291284 -- INFO: Process 1 get item 29 from queue and executing
+1665028939.291518 -- INFO: starting 1, 29, /home/cc/files_to_send/FILE1
+1665028939.643572 -- INFO: Throughput @22.1s:8511.71Mbps, rtt :46.28ms cwnd: 1339.3 lossRate: 1.3513623083430406e-05 CC:27 score:-4986.0 
+1665028939.997614 -- INFO: Gradient_Fast: 141.4666666666666, Gredient_Fast Change: 0.02500736550586293, Theta: -1, Previous CC: 27, Choosen CC: 26
+1665028939.997795 -- INFO: Changing concurrency to 26 ******
+1665028939.998251 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+1665028939.998590 -- INFO: Active CC: 26
+1665028940.646227 -- INFO: Throughput @23.1s:8858.37Mbps, rtt :40.0ms cwnd: 1233.3 lossRate: 0.00016514864071566263 CC:26 score:-5279.0 
+1665028941.645948 -- INFO: Throughput @24.1s:8883.54Mbps, rtt :43.74ms cwnd: 1278.7 lossRate: 0.0 CC:26 score:-5309.0 
+1665028942.137024 -- INFO: Process 4 finished on working on file 6 
+1665028942.137735 -- INFO: Process 4 get item 30 from queue and executing
+1665028942.138090 -- INFO: starting 4, 30, /home/cc/files_to_send/FILE0
+1665028942.347699 -- INFO: Process 0 finished on working on file 8 
+1665028942.348419 -- INFO: Process 0 get item 31 from queue and executing
+1665028942.348698 -- INFO: starting 0, 31, /home/cc/files_to_send/FILE2
+1665028942.647842 -- INFO: Throughput @25.1s:8651.58Mbps, rtt :42.93ms cwnd: 1318.7 lossRate: 0.0 CC:26 score:-5170.0 
+1665028943.052217 -- INFO: Process 3 finished on working on file 3 
+1665028943.052884 -- INFO: Process 3 get item 32 from queue and executing
+1665028943.053246 -- INFO: starting 3, 32, /home/cc/files_to_send/FILE3
+1665028943.199762 -- INFO: Gradient_Fast: 303.0, Gredient_Fast Change: 0.061216243518082025, Theta: -2, Previous CC: 26, Choosen CC: 22
+1665028943.199989 -- INFO: Changing concurrency to 22 ******
+1665028943.200522 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1665028943.200978 -- INFO: Active CC: 22
+1665028943.646528 -- INFO: Throughput @26.1s:7429.57Mbps, rtt :34.66ms cwnd: 933.8 lossRate: 0 CC:22 score:-4806.0 
+1665028943.829216 -- INFO: Process 11 finished on working on file 14 
+1665028943.829671 -- INFO: Process 11 get item 33 from queue and executing
+1665028943.829915 -- INFO: starting 11, 33, /home/cc/files_to_send/FILE1
+1665028944.644581 -- INFO: Throughput @27.1s:6976.59Mbps, rtt :35.21ms cwnd: 1001.7 lossRate: 0.0 CC:22 score:-4513.0 
+1665028945.186005 -- INFO: Process 8 finished on working on file 9 
+1665028945.186476 -- INFO: Process 8 get item 34 from queue and executing
+1665028945.186823 -- INFO: starting 8, 34, /home/cc/files_to_send/FILE0
+1665028945.646189 -- INFO: Throughput @28.1s:7387.63Mbps, rtt :34.5ms cwnd: 1058.4 lossRate: 0.0 CC:22 score:-4779.0 
+1665028946.402311 -- INFO: Gradient_Fast: -138.33333333333348, Gredient_Fast Change: 0.026335829419977183, Theta: 1, Previous CC: 22, Choosen CC: 23
+1665028946.402485 -- INFO: Changing concurrency to 23 ******
+1665028946.403268 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665028946.403298 -- INFO: Start Process :: 22
+1665028946.403897 -- INFO: Active CC: 23
+1665028946.439384 -- INFO: Process 22 get item 35 from queue and executing
+1665028946.439692 -- INFO: starting 22, 35, /home/cc/files_to_send/FILE2
+1665028946.647463 -- INFO: Throughput @29.1s:7759.46Mbps, rtt :34.67ms cwnd: 1070.4 lossRate: 0.0 CC:23 score:-4921.0 
+1665028947.508157 -- INFO: Process 5 finished on working on file 4 
+1665028947.508753 -- INFO: Process 5 get item 36 from queue and executing
+1665028947.508966 -- INFO: starting 5, 36, /home/cc/files_to_send/FILE3
+1665028947.647559 -- INFO: Throughput @30.1s:8134.22Mbps, rtt :38.58ms cwnd: 1187.4 lossRate: 0.0 CC:23 score:-5158.0 
+1665028948.514835 -- INFO: Process 12 finished on working on file 11 
+1665028948.515471 -- INFO: Process 12 get item 37 from queue and executing
+1665028948.515824 -- INFO: starting 12, 37, /home/cc/files_to_send/FILE1
+1665028948.651977 -- INFO: Throughput @31.1s:8520.09Mbps, rtt :34.6ms cwnd: 1219.1 lossRate: 0.0 CC:23 score:-5403.0 
+1665028948.775102 -- INFO: Process 16 finished on working on file 17 
+1665028948.776749 -- INFO: Process 16 get item 38 from queue and executing
+1665028948.777189 -- INFO: starting 16, 38, /home/cc/files_to_send/FILE0
+1665028948.835580 -- INFO: Process 14 finished on working on file 15 
+1665028948.836055 -- INFO: Process 14 get item 39 from queue and executing
+1665028948.836334 -- INFO: starting 14, 39, /home/cc/files_to_send/FILE2
+1665028949.032268 -- INFO: Process 6 finished on working on file 7 
+1665028949.032887 -- INFO: Process 6 get item 40 from queue and executing
+1665028949.033241 -- INFO: starting 6, 40, /home/cc/files_to_send/FILE3
+1665028949.215764 -- INFO: Process 9 finished on working on file 13 
+1665028949.216180 -- INFO: Process 9 get item 41 from queue and executing
+1665028949.216417 -- INFO: starting 9, 41, /home/cc/files_to_send/FILE1
+1665028949.605008 -- INFO: Gradient_Fast: -461.33333333333394, Gredient_Fast Change: 0.09816995318484906, Theta: 2, Previous CC: 23, Choosen CC: 29
+1665028949.605184 -- INFO: Changing concurrency to 29 ******
+1665028949.605740 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1665028949.605881 -- INFO: Start Process :: 23
+1665028949.605934 -- INFO: Start Process :: 24
+1665028949.606034 -- INFO: Active CC: 29
+1665028949.606074 -- INFO: Start Process :: 25
+1665028949.606153 -- INFO: Start Process :: 26
+1665028949.607654 -- INFO: Start Process :: 28
+1665028949.609095 -- INFO: Start Process :: 27
+1665028949.642039 -- INFO: Process 24 get item 42 from queue and executing
+1665028949.642314 -- INFO: starting 24, 42, /home/cc/files_to_send/FILE0
+1665028949.643601 -- INFO: Process 25 get item 43 from queue and executing
+1665028949.643975 -- INFO: starting 25, 43, /home/cc/files_to_send/FILE2
+1665028949.644357 -- INFO: Process 26 get item 44 from queue and executing
+1665028949.644632 -- INFO: starting 26, 44, /home/cc/files_to_send/FILE3
+1665028949.644784 -- INFO: Process 23 get item 45 from queue and executing
+1665028949.645016 -- INFO: starting 23, 45, /home/cc/files_to_send/FILE1
+1665028949.645880 -- INFO: Process 28 get item 46 from queue and executing
+1665028949.646170 -- INFO: starting 28, 46, /home/cc/files_to_send/FILE0
+1665028949.647000 -- INFO: Process 27 get item 47 from queue and executing
+1665028949.647263 -- INFO: starting 27, 47, /home/cc/files_to_send/FILE2
+1665028949.650608 -- INFO: Throughput @32.1s:8629.34Mbps, rtt :38.05ms cwnd: 991.3 lossRate: 0.0 CC:29 score:-4859.0 
+1665028950.653273 -- INFO: Throughput @33.1s:8606.71Mbps, rtt :43.79ms cwnd: 1135.0 lossRate: 5.809303532056548e-05 CC:29 score:-4842.0 
+1665028951.655212 -- INFO: Throughput @34.1s:8564.77Mbps, rtt :39.92ms cwnd: 1064.3 lossRate: 0.00014154320197942724 CC:29 score:-4811.0 
+1665028952.656597 -- INFO: Throughput @35.1s:8648.65Mbps, rtt :38.78ms cwnd: 1054.7 lossRate: 0.00012687626625852575 CC:29 score:-4859.0 
+1665028952.807212 -- INFO: Gradient_Fast: 53.88888888888899, Gredient_Fast Change: 0.010442233992162962, Theta: -1, Previous CC: 29, Choosen CC: 28
+1665028952.807395 -- INFO: Changing concurrency to 28 ******
+1665028952.807834 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1665028952.808152 -- INFO: Active CC: 28
+1665028953.655740 -- INFO: Throughput @36.1s:8707.38Mbps, rtt :36.53ms cwnd: 1044.6 lossRate: 0.0001315962626661403 CC:28 score:-4990.0 
+1665028954.656353 -- INFO: Throughput @37.1s:8799.65Mbps, rtt :38.0ms cwnd: 1084.8 lossRate: 0.0 CC:28 score:-5054.0 
+1665028955.658957 -- INFO: Throughput @38.1s:8757.71Mbps, rtt :36.35ms cwnd: 1083.0 lossRate: 1.3245541881741153e-06 CC:28 score:-5030.0 
+1665028956.009247 -- INFO: Gradient_Fast: 187.33333333333394, Gredient_Fast Change: 0.03872657111356132, Theta: -2, Previous CC: 28, Choosen CC: 24
+1665028956.009430 -- INFO: Changing concurrency to 24 ******
+1665028956.009878 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1665028956.010286 -- INFO: Active CC: 24
+1665028956.509622 -- INFO: Process 11 finished on working on file 33 
+1665028956.510351 -- INFO: Process 11 get item 48 from queue and executing
+1665028956.510639 -- INFO: starting 11, 48, /home/cc/files_to_send/FILE3
+1665028956.530343 -- INFO: Process 19 finished on working on file 21 
+1665028956.530915 -- INFO: Process 19 get item 49 from queue and executing
+1665028956.531184 -- INFO: starting 19, 49, /home/cc/files_to_send/FILE1
+1665028956.658565 -- INFO: Process 2 finished on working on file 23 
+1665028956.658949 -- INFO: Process 2 get item 50 from queue and executing
+1665028956.659066 -- INFO: starting 2, 50, /home/cc/files_to_send/FILE0
+1665028956.660836 -- INFO: Throughput @39.1s:8232.15Mbps, rtt :35.07ms cwnd: 1105.2 lossRate: 0 CC:24 score:-5118.0 
+1665028956.754249 -- INFO: Process 20 finished on working on file 20 
+1665028956.754620 -- INFO: Process 20 get item 51 from queue and executing
+1665028956.754845 -- INFO: starting 20, 51, /home/cc/files_to_send/FILE2
+1665028957.546664 -- INFO: Process 13 finished on working on file 12 
+1665028957.547153 -- INFO: Process 13 get item 52 from queue and executing
+1665028957.547405 -- INFO: starting 13, 52, /home/cc/files_to_send/FILE3
+1665028957.660030 -- INFO: Throughput @40.1s:7944.2Mbps, rtt :34.76ms cwnd: 898.2 lossRate: 0.00017790821112558555 CC:24 score:-4925.0 
+1665028958.665137 -- INFO: Throughput @41.1s:7256.15Mbps, rtt :34.35ms cwnd: 942.3 lossRate: 0.0 CC:24 score:-4511.0 
+1665028958.695921 -- INFO: Process 0 finished on working on file 31 
+1665028958.696310 -- INFO: Process 0 get item 53 from queue and executing
+1665028958.696454 -- INFO: starting 0, 53, /home/cc/files_to_send/FILE1
+1665028959.211258 -- INFO: Gradient_Fast: -43.333333333333485, Gredient_Fast Change: 0.008624121003051642, Theta: 1, Previous CC: 24, Choosen CC: 25
+1665028959.211451 -- INFO: Changing concurrency to 25 ******
+1665028959.212119 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1665028959.212137 -- INFO: Start Process :: 24
+1665028959.212592 -- INFO: Active CC: 25
+1665028959.246438 -- INFO: Process 24 get item 54 from queue and executing
+1665028959.246621 -- INFO: starting 24, 54, /home/cc/files_to_send/FILE0
+1665028959.664566 -- INFO: Throughput @42.1s:7169.53Mbps, rtt :34.59ms cwnd: 907.2 lossRate: 0.00010460655062313317 CC:25 score:-4363.0 
+1665028959.718819 -- INFO: Process 8 finished on working on file 34 
+1665028959.719275 -- INFO: Process 8 get item 55 from queue and executing
+1665028959.719465 -- INFO: starting 8, 55, /home/cc/files_to_send/FILE2
+1665028960.665881 -- INFO: Throughput @43.1s:7572.18Mbps, rtt :35.57ms cwnd: 940.5 lossRate: 0.0 CC:25 score:-4615.0 
+1665028961.408401 -- INFO: Process 16 finished on working on file 38 
+1665028961.409063 -- INFO: Process 16 get item 56 from queue and executing
+1665028961.409286 -- INFO: starting 16, 56, /home/cc/files_to_send/FILE3
+1665028961.666598 -- INFO: Throughput @44.1s:7748.34Mbps, rtt :34.86ms cwnd: 967.2 lossRate: 0.0 CC:25 score:-4723.0 
+1665028962.413534 -- INFO: Gradient_Fast: 284.33333333333303, Gredient_Fast Change: 0.05860931702624702, Theta: -1, Previous CC: 25, Choosen CC: 23
+1665028962.413696 -- INFO: Changing concurrency to 23 ******
+1665028962.414220 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665028962.414718 -- INFO: Active CC: 23
+1665028962.666507 -- INFO: Throughput @45.1s:7826.57Mbps, rtt :36.79ms cwnd: 991.4 lossRate: 0 CC:23 score:-4963.0 
+1665028963.667093 -- INFO: Throughput @46.1s:7541.36Mbps, rtt :34.52ms cwnd: 1011.6 lossRate: 0.0 CC:23 score:-4782.0 
+1665028964.659273 -- INFO: Process 3 finished on working on file 32 
+1665028964.659683 -- INFO: Process 3 get item 57 from queue and executing
+1665028964.659846 -- INFO: starting 3, 57, /home/cc/files_to_send/FILE1
+1665028964.667683 -- INFO: Throughput @47.1s:7566.52Mbps, rtt :35.25ms cwnd: 1031.3 lossRate: 0.0 CC:23 score:-4798.0 
+1665028964.943698 -- INFO: Process 21 finished on working on file 22 
+1665028964.944441 -- INFO: Process 21 get item 58 from queue and executing
+1665028964.944934 -- INFO: starting 21, 58, /home/cc/files_to_send/FILE0
+1665028965.108153 -- INFO: Process 15 finished on working on file 16 
+1665028965.108602 -- INFO: Process 15 get item 59 from queue and executing
+1665028965.108834 -- INFO: starting 15, 59, /home/cc/files_to_send/FILE2
+1665028965.615731 -- INFO: Gradient_Fast: 140.33333333333348, Gredient_Fast Change: 0.03072768411064889, Theta: -2, Previous CC: 23, Choosen CC: 21
+1665028965.615901 -- INFO: Changing concurrency to 21 ******
+1665028965.616598 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1665028965.617265 -- INFO: Active CC: 21
+1665028965.668158 -- INFO: Throughput @48.1s:7851.93Mbps, rtt :34.59ms cwnd: 1013.1 lossRate: 0 CC:21 score:-5181.0 
+1665028966.668593 -- INFO: Throughput @49.1s:7096.76Mbps, rtt :34.69ms cwnd: 1037.6 lossRate: 0 CC:21 score:-4682.0 
+1665028967.671602 -- INFO: Throughput @50.1s:7096.76Mbps, rtt :34.63ms cwnd: 1045.0 lossRate: 1.6241597003750185e-06 CC:21 score:-4682.0 
+1665028968.006909 -- INFO: Process 17 finished on working on file 18 
+1665028968.007360 -- INFO: Process 17 get item 60 from queue and executing
+1665028968.007641 -- INFO: starting 17, 60, /home/cc/files_to_send/FILE3
+1665028968.670009 -- INFO: Throughput @51.1s:7312.13Mbps, rtt :34.28ms cwnd: 1077.3 lossRate: 0.0 CC:21 score:-4824.0 
+1665028968.723721 -- INFO: Process 11 finished on working on file 48 
+1665028968.724481 -- INFO: Process 11 get item 61 from queue and executing
+1665028968.724768 -- INFO: starting 11, 61, /home/cc/files_to_send/FILE1
+1665028968.818342 -- INFO: Gradient_Fast: -59.16666666666697, Gredient_Fast Change: 0.012205184624905515, Theta: 1, Previous CC: 21, Choosen CC: 22
+1665028968.818507 -- INFO: Changing concurrency to 22 ******
+1665028968.819231 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1665028968.819361 -- INFO: Start Process :: 21
+1665028968.819780 -- INFO: Active CC: 22
+1665028968.853840 -- INFO: Process 21 get item 62 from queue and executing
+1665028968.854087 -- INFO: starting 21, 62, /home/cc/files_to_send/FILE0
+1665028969.671676 -- INFO: Throughput @52.1s:7723.18Mbps, rtt :35.72ms cwnd: 1128.2 lossRate: 0.0 CC:22 score:-4996.0 
+1665028970.672101 -- INFO: Throughput @53.1s:8229.22Mbps, rtt :36.43ms cwnd: 1218.5 lossRate: 0.0 CC:22 score:-5323.0 
+1665028971.560010 -- INFO: Process 14 finished on working on file 39 
+1665028971.560431 -- INFO: Process 14 get item 63 from queue and executing
+1665028971.560633 -- INFO: starting 14, 63, /home/cc/files_to_send/FILE2
+1665028971.673257 -- INFO: Throughput @54.1s:8520.09Mbps, rtt :36.94ms cwnd: 1280.2 lossRate: 0.0 CC:22 score:-5511.0 
+1665028972.020960 -- INFO: Gradient_Fast: -547.3333333333339, Gredient_Fast Change: 0.11573160417254032, Theta: 2, Previous CC: 22, Choosen CC: 28
+1665028972.021133 -- INFO: Changing concurrency to 28 ******
+1665028972.021806 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1665028972.021980 -- INFO: Start Process :: 22
+1665028972.022051 -- INFO: Start Process :: 24
+1665028972.022160 -- INFO: Active CC: 28
+1665028972.022122 -- INFO: Start Process :: 23
+1665028972.022265 -- INFO: Start Process :: 26
+1665028972.022385 -- INFO: Start Process :: 25
+1665028972.022430 -- INFO: Start Process :: 27
+1665028972.055725 -- INFO: Process 22 get item 64 from queue and executing
+1665028972.055778 -- INFO: Process 24 get item 65 from queue and executing
+1665028972.055919 -- INFO: starting 22, 64, /home/cc/files_to_send/FILE3
+1665028972.055950 -- INFO: starting 24, 65, /home/cc/files_to_send/FILE1
+1665028972.056081 -- INFO: Process 26 get item 66 from queue and executing
+1665028972.056205 -- INFO: Process 27 get item 67 from queue and executing
+1665028972.056245 -- INFO: starting 26, 66, /home/cc/files_to_send/FILE0
+1665028972.056575 -- INFO: starting 27, 67, /home/cc/files_to_send/FILE2
+1665028972.056628 -- INFO: Process 23 get item 68 from queue and executing
+1665028972.056786 -- INFO: starting 23, 68, /home/cc/files_to_send/FILE3
+1665028972.056872 -- INFO: Process 25 get item 69 from queue and executing
+1665028972.057126 -- INFO: starting 25, 69, /home/cc/files_to_send/FILE1
+1665028972.575262 -- INFO: Process 10 finished on working on file 10 
+1665028972.575660 -- INFO: Process 10 get item 70 from queue and executing
+1665028972.575899 -- INFO: starting 10, 70, /home/cc/files_to_send/FILE0
+1665028972.675400 -- INFO: Throughput @55.1s:8494.93Mbps, rtt :38.0ms cwnd: 1090.0 lossRate: 2.7157788106789853e-06 CC:28 score:-4879.0 
+1665028973.043835 -- INFO: Process 4 finished on working on file 30 
+1665028973.044405 -- INFO: Process 4 get item 71 from queue and executing
+1665028973.044621 -- INFO: starting 4, 71, /home/cc/files_to_send/FILE2
+1665028973.284824 -- INFO: Process 16 finished on working on file 56 
+1665028973.285522 -- INFO: Process 16 get item 72 from queue and executing
+1665028973.285747 -- INFO: starting 16, 72, /home/cc/files_to_send/FILE3
+1665028973.305656 -- INFO: Process 8 finished on working on file 55 
+1665028973.306237 -- INFO: Process 8 get item 73 from queue and executing
+1665028973.306486 -- INFO: starting 8, 73, /home/cc/files_to_send/FILE1
+1665028973.678383 -- INFO: Throughput @56.1s:8556.57Mbps, rtt :44.07ms cwnd: 1191.2 lossRate: 4.063460415800359e-06 CC:28 score:-4914.0 
+1665028974.285390 -- INFO: Process 7 finished on working on file 5 
+1665028974.285846 -- INFO: Process 7 get item 74 from queue and executing
+1665028974.286133 -- INFO: starting 7, 74, /home/cc/files_to_send/FILE0
+1665028974.677506 -- INFO: Throughput @57.1s:8419.43Mbps, rtt :42.66ms cwnd: 1138.9 lossRate: 0.00024409954848478998 CC:28 score:-4815.0 
+1665028975.223272 -- INFO: Gradient_Fast: 67.88888888888899, Gredient_Fast Change: 0.012865866498210168, Theta: -1, Previous CC: 28, Choosen CC: 27
+1665028975.223446 -- INFO: Changing concurrency to 27 ******
+1665028975.223818 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1665028975.224197 -- INFO: Active CC: 27
+1665028975.681430 -- INFO: Throughput @58.1s:8371.83Mbps, rtt :41.78ms cwnd: 1085.0 lossRate: 0.00018534770246077158 CC:27 score:-4889.0 
+1665028976.683231 -- INFO: Throughput @59.1s:8782.87Mbps, rtt :39.39ms cwnd: 1144.5 lossRate: 2.374118938082978e-05 CC:27 score:-5143.0 
+1665028977.050439 -- INFO: Process 9 finished on working on file 41 
+1665028977.050893 -- INFO: Process 9 get item 75 from queue and executing
+1665028977.051064 -- INFO: starting 9, 75, /home/cc/files_to_send/FILE2
+1665028977.110153 -- INFO: Process 1 finished on working on file 29 
+1665028977.110789 -- INFO: Process 1 get item 76 from queue and executing
+1665028977.111178 -- INFO: starting 1, 76, /home/cc/files_to_send/FILE3
+1665028977.283506 -- INFO: Process 18 finished on working on file 19 
+1665028977.284198 -- INFO: Process 18 get item 77 from queue and executing
+1665028977.284669 -- INFO: starting 18, 77, /home/cc/files_to_send/FILE1
+1665028977.682313 -- INFO: Throughput @60.1s:8791.45Mbps, rtt :36.46ms cwnd: 1055.2 lossRate: 0.00016136093398882905 CC:27 score:-5136.0 
+1665028978.125291 -- INFO: Process 20 finished on working on file 51 
+1665028978.126067 -- INFO: Process 20 get item 78 from queue and executing
+1665028978.126379 -- INFO: starting 20, 78, /home/cc/files_to_send/FILE0
+1665028978.425175 -- INFO: Gradient_Fast: 186.66666666666697, Gredient_Fast Change: 0.038335158817086594, Theta: -2, Previous CC: 27, Choosen CC: 23
+1665028978.425356 -- INFO: Changing concurrency to 23 ******
+1665028978.425809 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665028978.426276 -- INFO: Active CC: 23
+1665028978.682310 -- INFO: Throughput @61.1s:8486.54Mbps, rtt :38.02ms cwnd: 1149.0 lossRate: 0 CC:23 score:-5382.0 
+1665028979.684784 -- INFO: Throughput @62.1s:8363.44Mbps, rtt :37.06ms cwnd: 1216.5 lossRate: 0 CC:23 score:-5304.0 
+1665028980.172176 -- INFO: Process 6 finished on working on file 40 
+1665028980.172756 -- INFO: Process 6 get item 79 from queue and executing
+1665028980.172954 -- INFO: starting 6, 79, /home/cc/files_to_send/FILE2
+1665028980.542231 -- INFO: Process 19 finished on working on file 49 
+1665028980.542734 -- INFO: Process 19 get item 80 from queue and executing
+1665028980.542912 -- INFO: starting 19, 80, /home/cc/files_to_send/FILE3
+1665028980.685570 -- INFO: Throughput @63.1s:8576.08Mbps, rtt :35.5ms cwnd: 1172.8 lossRate: 4.477204921669265e-05 CC:23 score:-5435.0 
+1665028981.627198 -- INFO: Gradient_Fast: 79.41666666666674, Gredient_Fast Change: 0.015707410337552758, Theta: -3, Previous CC: 23, Choosen CC: 20
+1665028981.627376 -- INFO: Changing concurrency to 20 ******
+1665028981.628271 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1665028981.629070 -- INFO: Active CC: 20
+1665028981.686894 -- INFO: Throughput @64.1s:8287.94Mbps, rtt :34.95ms cwnd: 1149.0 lossRate: 4.60821127391906e-05 CC:20 score:-5574.0 
+1665028982.046520 -- INFO: Process 5 finished on working on file 36 
+1665028982.047032 -- INFO: Process 5 get item 81 from queue and executing
+1665028982.047204 -- INFO: starting 5, 81, /home/cc/files_to_send/FILE1
+1665028982.204734 -- INFO: Process 3 finished on working on file 57 
+1665028982.205150 -- INFO: Process 3 get item 82 from queue and executing
+1665028982.205322 -- INFO: starting 3, 82, /home/cc/files_to_send/FILE0
+1665028982.235707 -- INFO: Process 15 finished on working on file 59 
+1665028982.236220 -- INFO: Process 15 get item 83 from queue and executing
+1665028982.236388 -- INFO: starting 15, 83, /home/cc/files_to_send/FILE2
+1665028982.551500 -- INFO: Process 11 finished on working on file 61 
+1665028982.551936 -- INFO: Process 11 get item 84 from queue and executing
+1665028982.552181 -- INFO: starting 11, 84, /home/cc/files_to_send/FILE3
+1665028982.687631 -- INFO: Throughput @65.1s:7941.47Mbps, rtt :36.73ms cwnd: 1222.4 lossRate: 0 CC:20 score:-5344.0 
+1665028983.294725 -- INFO: Process 12 finished on working on file 37 
+1665028983.295188 -- INFO: Process 12 get item 85 from queue and executing
+1665028983.295344 -- INFO: starting 12, 85, /home/cc/files_to_send/FILE1
+1665028983.685957 -- INFO: Throughput @66.1s:7580.57Mbps, rtt :34.8ms cwnd: 1155.0 lossRate: 4.751249118719921e-05 CC:20 score:-5098.0 
+1665028983.942660 -- INFO: Process 2 finished on working on file 50 
+1665028983.943339 -- INFO: Process 2 get item 86 from queue and executing
+1665028983.943552 -- INFO: starting 2, 86, /home/cc/files_to_send/FILE0
+1665028984.465734 -- INFO: Process 0 finished on working on file 53 
+1665028984.466120 -- INFO: Process 0 get item 87 from queue and executing
+1665028984.466252 -- INFO: starting 0, 87, /home/cc/files_to_send/FILE2
+1665028984.686676 -- INFO: Throughput @67.1s:7737.22Mbps, rtt :34.44ms cwnd: 1187.8 lossRate: 0.0 CC:20 score:-5207.0 
+1665028984.830191 -- INFO: Gradient_Fast: -52.44444444444465, Gredient_Fast Change: 0.009759526911068416, Theta: 1, Previous CC: 20, Choosen CC: 21
+1665028984.830366 -- INFO: Changing concurrency to 21 ******
+1665028984.831204 -- INFO: Start Process :: 20
+1665028984.831347 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1665028984.832219 -- INFO: Active CC: 21
+1665028984.865869 -- INFO: Process 20 get item 88 from queue and executing
+1665028984.866091 -- INFO: starting 20, 88, /home/cc/files_to_send/FILE3
+1665028985.038105 -- INFO: Process 14 finished on working on file 63 
+1665028985.038478 -- INFO: Process 14 get item 89 from queue and executing
+1665028985.038689 -- INFO: starting 14, 89, /home/cc/files_to_send/FILE1
+1665028985.689008 -- INFO: Throughput @68.1s:7991.61Mbps, rtt :34.49ms cwnd: 1163.0 lossRate: 0.0 CC:21 score:-5273.0 
+1665028986.689502 -- INFO: Throughput @69.1s:7826.57Mbps, rtt :35.2ms cwnd: 1142.1 lossRate: 4.446302010617769e-05 CC:21 score:-5160.0 
+1665028986.926628 -- INFO: Process 8 finished on working on file 73 
+1665028986.927037 -- INFO: Process 8 get item 90 from queue and executing
+1665028986.927163 -- INFO: starting 8, 90, /home/cc/files_to_send/FILE0
+1665028987.690274 -- INFO: Throughput @70.1s:7580.57Mbps, rtt :34.57ms cwnd: 1025.5 lossRate: 0.0001011412099860088 CC:21 score:-4994.0 
+1665028988.033159 -- INFO: Gradient_Fast: 74.0, Gredient_Fast Change: 0.014186209981468465, Theta: -1, Previous CC: 21, Choosen CC: 20
+1665028988.033317 -- INFO: Changing concurrency to 20 ******
+1665028988.034092 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1665028988.034904 -- INFO: Active CC: 20
+1665028988.693590 -- INFO: Throughput @71.1s:7214.2Mbps, rtt :34.63ms cwnd: 1109.0 lossRate: 0 CC:20 score:-4855.0 
+1665028989.313811 -- INFO: Process 16 finished on working on file 72 
+1665028989.314433 -- INFO: Process 16 get item 91 from queue and executing
+1665028989.314671 -- INFO: starting 16, 91, /home/cc/files_to_send/FILE2
+1665028989.691832 -- INFO: Throughput @72.1s:7421.19Mbps, rtt :35.49ms cwnd: 1142.4 lossRate: 0.0 CC:20 score:-4994.0 
+1665028990.692734 -- INFO: Throughput @73.1s:7675.58Mbps, rtt :34.45ms cwnd: 1170.8 lossRate: 0.0 CC:20 score:-5165.0 
+1665028991.235823 -- INFO: Gradient_Fast: -137.66666666666606, Gredient_Fast Change: 0.02677124521942038, Theta: 1, Previous CC: 20, Choosen CC: 21
+1665028991.236012 -- INFO: Changing concurrency to 21 ******
+1665028991.236790 -- INFO: Start Process :: 20
+1665028991.236840 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1665028991.237327 -- INFO: Active CC: 21
+1665028991.272057 -- INFO: Process 20 get item 92 from queue and executing
+1665028991.272280 -- INFO: starting 20, 92, /home/cc/files_to_send/FILE3
+1665028991.696749 -- INFO: Throughput @74.1s:7868.51Mbps, rtt :34.44ms cwnd: 1150.6 lossRate: 0.0 CC:21 score:-5191.0 
+1665028992.698490 -- INFO: Throughput @75.1s:8120.17Mbps, rtt :34.7ms cwnd: 1206.4 lossRate: 0.0 CC:21 score:-5357.0 
+1665028993.312465 -- INFO: Process 13 finished on working on file 52 
+1665028993.312924 -- INFO: Process 13 get item 93 from queue and executing
+1665028993.313065 -- INFO: starting 13, 93, /home/cc/files_to_send/FILE1
+1665028993.699269 -- INFO: Throughput @76.1s:8536.87Mbps, rtt :38.88ms cwnd: 1296.5 lossRate: 0.0 CC:21 score:-5632.0 
+1665028994.356539 -- INFO: Process 3 finished on working on file 82 
+1665028994.356978 -- INFO: Process 3 get item 94 from queue and executing
+1665028994.357156 -- INFO: starting 3, 94, /home/cc/files_to_send/FILE0
+1665028994.438394 -- INFO: Gradient_Fast: -388.66666666666606, Gredient_Fast Change: 0.07766084987345132, Theta: 2, Previous CC: 21, Choosen CC: 25
+1665028994.438570 -- INFO: Changing concurrency to 25 ******
+1665028994.439403 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1665028994.439455 -- INFO: Start Process :: 22
+1665028994.439531 -- INFO: Start Process :: 24
+1665028994.439639 -- INFO: Start Process :: 23
+1665028994.439773 -- INFO: Start Process :: 21
+1665028994.439944 -- INFO: Active CC: 25
+1665028994.477321 -- INFO: Process 22 get item 95 from queue and executing
+1665028994.477562 -- INFO: starting 22, 95, /home/cc/files_to_send/FILE2
+1665028994.477993 -- INFO: Process 23 get item 96 from queue and executing
+1665028994.478047 -- INFO: Process 24 get item 97 from queue and executing
+1665028994.478167 -- INFO: starting 23, 96, /home/cc/files_to_send/FILE3
+1665028994.478220 -- INFO: starting 24, 97, /home/cc/files_to_send/FILE1
+1665028994.478627 -- INFO: Process 21 get item 98 from queue and executing
+1665028994.478884 -- INFO: starting 21, 98, /home/cc/files_to_send/FILE0
+1665028994.698248 -- INFO: Throughput @77.1s:8352.32Mbps, rtt :39.94ms cwnd: 1139.0 lossRate: 5.5469885399216765e-06 CC:25 score:-5091.0 
+1665028995.039113 -- INFO: Process 10 finished on working on file 70 
+1665028995.039471 -- INFO: Process 10 get item 99 from queue and executing
+1665028995.039606 -- INFO: starting 10, 99, /home/cc/files_to_send/FILE2
+1665028995.552888 -- INFO: Process 18 finished on working on file 77 
+1665028995.553261 -- INFO: Process 18 get item 100 from queue and executing
+1665028995.553414 -- INFO: starting 18, 100, /home/cc/files_to_send/FILE3
+1665028995.702067 -- INFO: Throughput @78.1s:8592.86Mbps, rtt :39.35ms cwnd: 1198.8 lossRate: 1.3522266440033481e-06 CC:25 score:-5237.0 
+1665028995.927867 -- INFO: Process 4 finished on working on file 71 
+1665028995.928312 -- INFO: Process 4 get item 101 from queue and executing
+1665028995.928514 -- INFO: starting 4, 101, /home/cc/files_to_send/FILE1
+1665028996.703718 -- INFO: Throughput @79.1s:8679.48Mbps, rtt :41.95ms cwnd: 1326.8 lossRate: 1.5910983351807753e-05 CC:25 score:-5289.0 
+1665028997.145450 -- INFO: Process 11 finished on working on file 84 
+1665028997.146118 -- INFO: Process 11 get item 102 from queue and executing
+1665028997.146378 -- INFO: starting 11, 102, /home/cc/files_to_send/FILE0
+1665028997.640952 -- INFO: Gradient_Fast: 46.916666666666515, Gredient_Fast Change: 0.00869901112484546, Theta: -1, Previous CC: 25, Choosen CC: 24
+1665028997.641122 -- INFO: Changing concurrency to 24 ******
+1665028997.641734 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1665028997.642296 -- INFO: Active CC: 24
+1665028997.703994 -- INFO: Throughput @80.1s:8822.08Mbps, rtt :41.57ms cwnd: 1130.9 lossRate: 0.00023208595646417775 CC:24 score:-5464.0 
+1665028998.705466 -- INFO: Throughput @81.1s:7944.01Mbps, rtt :34.3ms cwnd: 949.8 lossRate: 0.0002469549571797744 CC:24 score:-4919.0 
+1665028999.040224 -- INFO: Process 8 finished on working on file 90 
+1665028999.040665 -- INFO: Process 8 get item 103 from queue and executing
+1665028999.040814 -- INFO: starting 8, 103, /home/cc/files_to_send/FILE2
+1665028999.159831 -- INFO: Process 9 finished on working on file 75 
+1665028999.160492 -- INFO: Process 9 get item 104 from queue and executing
+1665028999.160736 -- INFO: starting 9, 104, /home/cc/files_to_send/FILE3
+1665028999.706690 -- INFO: Throughput @82.1s:7049.36Mbps, rtt :34.14ms cwnd: 783.6 lossRate: 0.00023218055686848133 CC:24 score:-4366.0 
+1665029000.268949 -- INFO: Process 14 finished on working on file 89 
+1665029000.269468 -- INFO: Process 14 get item 105 from queue and executing
+1665029000.269699 -- INFO: starting 14, 105, /home/cc/files_to_send/FILE1
+1665029000.707679 -- INFO: Throughput @83.1s:6330.67Mbps, rtt :34.2ms cwnd: 809.2 lossRate: 5.8411321574404156e-05 CC:24 score:-3932.0 
+1665029000.843213 -- INFO: Gradient_Fast: -800.0, Gredient_Fast Change: 0.1536786834859448, Theta: 1, Previous CC: 24, Choosen CC: 28
+1665029000.843381 -- INFO: Changing concurrency to 28 ******
+1665029000.844035 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1665029000.844115 -- INFO: Start Process :: 24
+1665029000.844316 -- INFO: Start Process :: 26
+1665029000.844386 -- INFO: Active CC: 28
+1665029000.844446 -- INFO: Start Process :: 25
+1665029000.844619 -- INFO: Start Process :: 27
+1665029000.879008 -- INFO: Process 25 get item 106 from queue and executing
+1665029000.879092 -- INFO: Process 24 get item 107 from queue and executing
+1665029000.879231 -- INFO: starting 24, 107, /home/cc/files_to_send/FILE2
+1665029000.879250 -- INFO: starting 25, 106, /home/cc/files_to_send/FILE0
+1665029000.879441 -- INFO: Process 26 get item 108 from queue and executing
+1665029000.879713 -- INFO: Process 27 get item 109 from queue and executing
+1665029000.879807 -- INFO: starting 26, 108, /home/cc/files_to_send/FILE3
+1665029000.879960 -- INFO: starting 27, 109, /home/cc/files_to_send/FILE1
+1665029001.613933 -- INFO: Process 7 finished on working on file 74 
+1665029001.614319 -- INFO: Process 7 get item 110 from queue and executing
+1665029001.614457 -- INFO: starting 7, 110, /home/cc/files_to_send/FILE0
+1665029001.708452 -- INFO: Throughput @84.1s:7177.92Mbps, rtt :34.42ms cwnd: 831.3 lossRate: 5.989526422714874e-05 CC:28 score:-4119.0 
+1665029002.491413 -- INFO: Process 17 finished on working on file 60 
+1665029002.491957 -- INFO: Process 17 get item 111 from queue and executing
+1665029002.492157 -- INFO: starting 17, 111, /home/cc/files_to_send/FILE2
+1665029002.709267 -- INFO: Throughput @85.1s:7781.9Mbps, rtt :34.66ms cwnd: 840.7 lossRate: 3.5696012755375225e-05 CC:28 score:-4467.0 
+1665029003.710765 -- INFO: Throughput @86.1s:7834.96Mbps, rtt :34.62ms cwnd: 870.6 lossRate: 0.0 CC:28 score:-4500.0 
+1665029004.045321 -- INFO: Gradient_Fast: 10.916666666666742, Gredient_Fast Change: 0.002477869410607568, Theta: -1, Previous CC: 28, Choosen CC: 27
+1665029004.045514 -- INFO: Changing concurrency to 27 ******
+1665029004.045940 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1665029004.046189 -- INFO: Active CC: 27
+1665029004.711817 -- INFO: Throughput @87.1s:7868.51Mbps, rtt :34.29ms cwnd: 885.4 lossRate: 0 CC:27 score:-4610.0 
+1665029005.202816 -- INFO: Process 1 finished on working on file 76 
+1665029005.203227 -- INFO: Process 1 get item 112 from queue and executing
+1665029005.203361 -- INFO: starting 1, 112, /home/cc/files_to_send/FILE3
+1665029005.710439 -- INFO: Process 16 finished on working on file 91 
+1665029005.711217 -- INFO: Process 16 get item 113 from queue and executing
+1665029005.711624 -- INFO: starting 16, 113, /home/cc/files_to_send/FILE1
+1665029005.712997 -- INFO: Throughput @88.1s:7941.28Mbps, rtt :34.91ms cwnd: 905.4 lossRate: 0.0 CC:27 score:-4652.0 
+1665029006.553647 -- INFO: Process 5 finished on working on file 81 
+1665029006.554136 -- INFO: Process 5 get item 114 from queue and executing
+1665029006.554300 -- INFO: starting 5, 114, /home/cc/files_to_send/FILE0
+1665029006.714188 -- INFO: Throughput @89.1s:8055.99Mbps, rtt :34.58ms cwnd: 921.4 lossRate: 0.0 CC:27 score:-4720.0 
+1665029007.247122 -- INFO: Gradient_Fast: 298.66666666666697, Gredient_Fast Change: 0.0684701207397219, Theta: -2, Previous CC: 27, Choosen CC: 23
+1665029007.247286 -- INFO: Changing concurrency to 23 ******
+1665029007.247799 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665029007.248177 -- INFO: Active CC: 23
+1665029007.538113 -- INFO: Process 6 finished on working on file 79 
+1665029007.538672 -- INFO: Process 6 get item 115 from queue and executing
+1665029007.538883 -- INFO: starting 6, 115, /home/cc/files_to_send/FILE2
+1665029007.715459 -- INFO: Throughput @90.1s:7656.07Mbps, rtt :34.55ms cwnd: 939.5 lossRate: 0 CC:23 score:-4855.0 
+1665029008.652600 -- INFO: Process 19 finished on working on file 80 
+1665029008.653060 -- INFO: Process 19 get item 116 from queue and executing
+1665029008.653214 -- INFO: starting 19, 116, /home/cc/files_to_send/FILE3
+1665029008.716514 -- INFO: Throughput @91.1s:7152.75Mbps, rtt :34.41ms cwnd: 947.5 lossRate: 0.0 CC:23 score:-4536.0 
+1665029009.716372 -- INFO: Throughput @92.1s:7247.76Mbps, rtt :34.35ms cwnd: 955.1 lossRate: 0.0 CC:23 score:-4596.0 
+1665029010.449145 -- INFO: Gradient_Fast: 0.4166666666665151, Gredient_Fast Change: 8.940065798881027e-05, Theta: -3, Previous CC: 23, Choosen CC: 20
+1665029010.449321 -- INFO: Changing concurrency to 20 ******
+1665029010.450124 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1665029010.450775 -- INFO: Active CC: 20
+1665029010.717918 -- INFO: Throughput @93.1s:7130.32Mbps, rtt :34.28ms cwnd: 1008.7 lossRate: 0 CC:20 score:-4799.0 
+1665029010.964517 -- INFO: Process 8 finished on working on file 103 
+1665029010.966831 -- INFO: Process 8 get item 117 from queue and executing
+1665029010.967299 -- INFO: starting 8, 117, /home/cc/files_to_send/FILE1
+1665029011.215652 -- INFO: Process 15 finished on working on file 83 
+1665029011.216018 -- INFO: Process 15 get item 118 from queue and executing
+1665029011.216155 -- INFO: starting 15, 118, /home/cc/files_to_send/FILE0
+1665029011.718578 -- INFO: Throughput @94.1s:6671.87Mbps, rtt :34.17ms cwnd: 1021.2 lossRate: 0.0 CC:20 score:-4490.0 
+1665029012.719981 -- INFO: Throughput @95.1s:6811.55Mbps, rtt :35.44ms cwnd: 1046.2 lossRate: 0.0 CC:20 score:-4584.0 
+1665029013.651840 -- INFO: Gradient_Fast: -12.666666666666666, Gredient_Fast Change: 0.002716808465003217, Theta: 1, Previous CC: 20, Choosen CC: 21
+1665029013.652016 -- INFO: Changing concurrency to 21 ******
+1665029013.652796 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1665029013.652785 -- INFO: Start Process :: 20
+1665029013.653680 -- INFO: Active CC: 21
+1665029013.687047 -- INFO: Process 20 get item 119 from queue and executing
+1665029013.687306 -- INFO: starting 20, 119, /home/cc/files_to_send/FILE2
+1665029013.720784 -- INFO: Throughput @96.2s:5490.73Mbps, rtt :34.06ms cwnd: 863.0 lossRate: 0.00023843262533705263 CC:21 score:-3610.0 
+1665029014.573657 -- INFO: Process 12 finished on working on file 85 
+1665029014.574119 -- INFO: Process 12 get item 120 from queue and executing
+1665029014.574330 -- INFO: starting 12, 120, /home/cc/files_to_send/FILE3
+1665029014.721931 -- INFO: Throughput @97.2s:6355.83Mbps, rtt :34.23ms cwnd: 950.3 lossRate: 0.0 CC:21 score:-4193.0 
+1665029015.111757 -- INFO: Process 14 finished on working on file 105 
+1665029015.112207 -- INFO: Process 14 get item 121 from queue and executing
+1665029015.112361 -- INFO: starting 14, 121, /home/cc/files_to_send/FILE1
+1665029015.723264 -- INFO: Throughput @98.2s:6984.98Mbps, rtt :34.4ms cwnd: 1075.4 lossRate: 0.0 CC:21 score:-4609.0 
+1665029016.724116 -- INFO: Throughput @99.2s:7700.74Mbps, rtt :34.63ms cwnd: 1155.0 lossRate: 0.0 CC:21 score:-5081.0 
+1665029016.854635 -- INFO: Gradient_Fast: -3.3333333333339397, Gredient_Fast Change: 0.0007208246233692655, Theta: 2, Previous CC: 21, Choosen CC: 23
+1665029016.854833 -- INFO: Changing concurrency to 23 ******
+1665029016.855986 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665029016.855979 -- INFO: Start Process :: 22
+1665029016.856209 -- INFO: Start Process :: 21
+1665029016.856658 -- INFO: Active CC: 23
+1665029016.891335 -- INFO: Process 22 get item 122 from queue and executing
+1665029016.891435 -- INFO: Process 21 get item 123 from queue and executing
+1665029016.891511 -- INFO: starting 22, 122, /home/cc/files_to_send/FILE0
+1665029016.891676 -- INFO: starting 21, 123, /home/cc/files_to_send/FILE2
+1665029017.123679 -- INFO: Process 7 finished on working on file 110 
+1665029017.124077 -- INFO: Process 7 get item 124 from queue and executing
+1665029017.124208 -- INFO: starting 7, 124, /home/cc/files_to_send/FILE3
+1665029017.135633 -- INFO: Process 3 finished on working on file 94 
+1665029017.137926 -- INFO: Process 3 get item 125 from queue and executing
+1665029017.138429 -- INFO: starting 3, 125, /home/cc/files_to_send/FILE1
+1665029017.726401 -- INFO: Throughput @100.2s:7955.32Mbps, rtt :34.59ms cwnd: 1028.1 lossRate: 0.00012970357632108192 CC:23 score:-5035.0 
+1665029017.986864 -- INFO: Process 0 finished on working on file 87 
+1665029017.988035 -- INFO: Process 0 get item 126 from queue and executing
+1665029017.988307 -- INFO: starting 0, 126, /home/cc/files_to_send/FILE0
+1665029018.593227 -- INFO: Process 5 finished on working on file 114 
+1665029018.593853 -- INFO: Process 5 get item 127 from queue and executing
+1665029018.594152 -- INFO: starting 5, 127, /home/cc/files_to_send/FILE2
+1665029018.727432 -- INFO: Throughput @101.2s:8114.71Mbps, rtt :35.07ms cwnd: 1146.3 lossRate: 0.0 CC:23 score:-5146.0 
+1665029019.167946 -- INFO: Process 10 finished on working on file 99 
+1665029019.168413 -- INFO: Process 10 get item 27 from queue and executing
+1665029019.168563 -- INFO: starting 10, 27, /home/cc/files_to_send/FILE2
+1665029019.728135 -- INFO: Throughput @102.2s:8528.48Mbps, rtt :36.39ms cwnd: 1248.0 lossRate: 0.0 CC:23 score:-5408.0 
+1665029019.857983 -- INFO: Process 2 finished on working on file 86 
+1665029019.858816 -- INFO: Process 2 get item 28 from queue and executing
+1665029019.859161 -- INFO: starting 2, 28, /home/cc/files_to_send/FILE3
+1665029020.057580 -- INFO: Gradient_Fast: -284.33333333333303, Gredient_Fast Change: 0.06144205142980617, Theta: 3, Previous CC: 23, Choosen CC: 29
+1665029020.057774 -- INFO: Changing concurrency to 29 ******
+1665029020.058290 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1665029020.058367 -- INFO: Start Process :: 23
+1665029020.058556 -- INFO: Active CC: 29
+1665029020.058526 -- INFO: Start Process :: 24
+1665029020.058714 -- INFO: Start Process :: 25
+1665029020.058761 -- INFO: Start Process :: 26
+1665029020.058917 -- INFO: Start Process :: 27
+1665029020.060003 -- INFO: Start Process :: 28
+1665029020.094499 -- INFO: Process 25 get item 24 from queue and executing
+1665029020.094764 -- INFO: starting 25, 24, /home/cc/files_to_send/FILE3
+1665029020.094965 -- INFO: Process 24 get item 26 from queue and executing
+1665029020.095184 -- INFO: Process 26 get item 25 from queue and executing
+1665029020.095205 -- INFO: starting 24, 26, /home/cc/files_to_send/FILE0
+1665029020.095348 -- INFO: Process 23 get item 46 from queue and executing
+1665029020.095357 -- INFO: starting 26, 25, /home/cc/files_to_send/FILE1
+1665029020.095533 -- INFO: starting 23, 46, /home/cc/files_to_send/FILE0
+1665029020.095803 -- INFO: Process 27 get item 47 from queue and executing
+1665029020.096035 -- INFO: starting 27, 47, /home/cc/files_to_send/FILE2
+1665029020.097019 -- INFO: Process 28 get item 42 from queue and executing
+1665029020.097466 -- INFO: starting 28, 42, /home/cc/files_to_send/FILE0
+1665029020.729105 -- INFO: Throughput @103.2s:8713.03Mbps, rtt :40.92ms cwnd: 1080.4 lossRate: 4.671462701707086e-05 CC:29 score:-4902.0 
+1665029020.802898 -- INFO: Process 16 finished on working on file 113 
+1665029020.803525 -- INFO: Process 16 get item 44 from queue and executing
+1665029020.803741 -- INFO: starting 16, 44, /home/cc/files_to_send/FILE3
+1665029021.183439 -- INFO: Process 18 finished on working on file 100 
+1665029021.184184 -- INFO: Process 18 get item 43 from queue and executing
+1665029021.184431 -- INFO: starting 18, 43, /home/cc/files_to_send/FILE2
+1665029021.727687 -- INFO: Throughput @104.2s:8576.08Mbps, rtt :42.52ms cwnd: 1147.4 lossRate: 6.899191982868359e-05 CC:29 score:-4823.0 
+1665029022.730392 -- INFO: Throughput @105.2s:8841.59Mbps, rtt :44.85ms cwnd: 1219.8 lossRate: 0.00011641413084425098 CC:29 score:-4969.0 
+1665029022.742596 -- INFO: Process 8 finished on working on file 117 
+1665029022.743354 -- INFO: Process 8 get item 45 from queue and executing
+1665029022.743635 -- INFO: starting 8, 45, /home/cc/files_to_send/FILE1
+1665029023.259766 -- INFO: Gradient_Fast: 49.72222222222217, Gredient_Fast Change: 0.009568712981375748, Theta: -1, Previous CC: 29, Choosen CC: 28
+1665029023.259948 -- INFO: Changing concurrency to 28 ******
+1665029023.260217 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1665029023.260515 -- INFO: Active CC: 28
+1665029023.546278 -- INFO: Process 11 finished on working on file 102 
+1665029023.547107 -- INFO: Process 11 get item 54 from queue and executing
+1665029023.547440 -- INFO: starting 11, 54, /home/cc/files_to_send/FILE0
+1665029023.729170 -- INFO: Throughput @106.2s:8727.08Mbps, rtt :43.43ms cwnd: 1140.6 lossRate: 7.966740334426056e-05 CC:28 score:-5006.0 
+1665029024.734418 -- INFO: Throughput @107.2s:8497.66Mbps, rtt :44.79ms cwnd: 1177.9 lossRate: 0.0 CC:28 score:-4881.0 
+1665029025.735000 -- INFO: Throughput @108.2s:8556.38Mbps, rtt :42.17ms cwnd: 1127.1 lossRate: 0.0001452219928529064 CC:28 score:-4902.0 
+1665029026.461598 -- INFO: Gradient_Fast: 31.66666666666697, Gredient_Fast Change: 0.006465223900911999, Theta: -2, Previous CC: 28, Choosen CC: 26
+1665029026.461782 -- INFO: Changing concurrency to 26 ******
+1665029026.462167 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+1665029026.462536 -- INFO: Active CC: 26
+1665029026.735845 -- INFO: Throughput @109.2s:8363.44Mbps, rtt :42.04ms cwnd: 1171.0 lossRate: 0 CC:26 score:-4998.0 
+1665029027.737109 -- INFO: Throughput @110.2s:8329.89Mbps, rtt :35.0ms cwnd: 1050.0 lossRate: 9.221367305223067e-05 CC:26 score:-4970.0 
+1665029028.335938 -- INFO: Process 4 finished on working on file 101 
+1665029028.336369 -- INFO: Process 4 get item 58 from queue and executing
+1665029028.336502 -- INFO: starting 4, 58, /home/cc/files_to_send/FILE0
+1665029028.505421 -- INFO: Process 8 finished on working on file 45 
+1665029028.505996 -- INFO: Process 8 get item 35 from queue and executing
+1665029028.506180 -- INFO: starting 8, 35, /home/cc/files_to_send/FILE2
+1665029028.737898 -- INFO: Throughput @111.2s:8391.53Mbps, rtt :36.48ms cwnd: 1108.4 lossRate: 0.0 CC:26 score:-5015.0 
+1665029028.783903 -- INFO: Process 14 finished on working on file 121 
+1665029028.784529 -- INFO: Process 14 get item 67 from queue and executing
+1665029028.784775 -- INFO: starting 14, 67, /home/cc/files_to_send/FILE2
+1665029029.663539 -- INFO: Gradient_Fast: 32.33333333333303, Gredient_Fast Change: 0.0065589289336668525, Theta: -3, Previous CC: 26, Choosen CC: 23
+1665029029.663704 -- INFO: Changing concurrency to 23 ******
+1665029029.664274 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665029029.664703 -- INFO: Active CC: 23
+1665029029.737752 -- INFO: Throughput @112.2s:8545.26Mbps, rtt :37.49ms cwnd: 1110.4 lossRate: 0 CC:23 score:-5419.0 
+1665029030.349816 -- INFO: Process 13 finished on working on file 93 
+1665029030.350216 -- INFO: Process 13 get item 69 from queue and executing
+1665029030.350364 -- INFO: starting 13, 69, /home/cc/files_to_send/FILE1
+1665029030.738639 -- INFO: Throughput @113.2s:8394.26Mbps, rtt :35.74ms cwnd: 1177.2 lossRate: 0 CC:23 score:-5323.0 
+1665029031.561156 -- INFO: Process 21 finished on working on file 123 
+1665029031.561831 -- INFO: Process 21 get item 66 from queue and executing
+1665029031.562118 -- INFO: starting 21, 66, /home/cc/files_to_send/FILE0
+1665029031.740135 -- INFO: Throughput @114.2s:8394.26Mbps, rtt :39.8ms cwnd: 1223.7 lossRate: 0.0 CC:23 score:-5323.0 
+1665029031.963968 -- INFO: Process 8 finished on working on file 35 
+1665029031.964573 -- INFO: Process 8 get item 68 from queue and executing
+1665029031.964736 -- INFO: starting 8, 68, /home/cc/files_to_send/FILE3
+1665029032.342088 -- INFO: Process 0 finished on working on file 126 
+1665029032.342435 -- INFO: Process 0 get item 65 from queue and executing
+1665029032.342560 -- INFO: starting 0, 65, /home/cc/files_to_send/FILE1
+1665029032.601621 -- INFO: Process 17 finished on working on file 111 
+1665029032.601950 -- INFO: Process 17 get item 64 from queue and executing
+1665029032.602130 -- INFO: starting 17, 64, /home/cc/files_to_send/FILE3
+1665029032.740754 -- INFO: Throughput @115.2s:8464.3Mbps, rtt :37.85ms cwnd: 1273.6 lossRate: 0.0 CC:23 score:-5368.0 
+1665029032.865673 -- INFO: Gradient_Fast: 114.55555555555566, Gredient_Fast Change: 0.02293710649847607, Theta: -4, Previous CC: 23, Choosen CC: 19
+1665029032.865848 -- INFO: Changing concurrency to 19 ******
+1665029032.866554 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029032.867259 -- INFO: Active CC: 19
+1665029033.685467 -- INFO: Process 9 finished on working on file 104 
+1665029033.685983 -- INFO: Process 9 get item 62 from queue and executing
+1665029033.686157 -- INFO: starting 9, 62, /home/cc/files_to_send/FILE0
+1665029033.741453 -- INFO: Throughput @116.2s:8201.33Mbps, rtt :35.31ms cwnd: 1350.3 lossRate: 0 CC:19 score:-5630.0 
+1665029034.742789 -- INFO: Throughput @117.2s:8246.0Mbps, rtt :36.74ms cwnd: 1412.4 lossRate: 0.0 CC:19 score:-5660.0 
+1665029035.729573 -- INFO: Process 15 finished on working on file 118 
+1665029035.730374 -- INFO: Process 15 get item 78 from queue and executing
+1665029035.730685 -- INFO: starting 15, 78, /home/cc/files_to_send/FILE0
+1665029035.742930 -- INFO: Throughput @118.2s:8134.22Mbps, rtt :35.02ms cwnd: 1348.1 lossRate: 8.547130301001439e-05 CC:19 score:-5577.0 
+1665029036.068261 -- INFO: Gradient_Fast: 71.08333333333326, Gredient_Fast Change: 0.013316473086049692, Theta: -5, Previous CC: 19, Choosen CC: 14
+1665029036.068446 -- INFO: Changing concurrency to 14 ******
+1665029036.069502 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029036.070445 -- INFO: Active CC: 14
+1665029036.623729 -- INFO: Process 12 finished on working on file 120 
+1665029036.624238 -- INFO: Process 12 get item 88 from queue and executing
+1665029036.624412 -- INFO: starting 12, 88, /home/cc/files_to_send/FILE3
+1665029036.741834 -- INFO: Throughput @119.2s:7152.75Mbps, rtt :34.81ms cwnd: 1438.4 lossRate: 0 CC:14 score:-5421.0 
+1665029036.884577 -- INFO: Process 7 finished on working on file 124 
+1665029036.884952 -- INFO: Process 7 get item 97 from queue and executing
+1665029036.885094 -- INFO: starting 7, 97, /home/cc/files_to_send/FILE1
+1665029036.953944 -- INFO: Process 11 finished on working on file 54 
+1665029036.954456 -- INFO: Process 11 get item 109 from queue and executing
+1665029036.954636 -- INFO: starting 11, 109, /home/cc/files_to_send/FILE1
+1665029036.967694 -- INFO: Process 6 finished on working on file 115 
+1665029036.968411 -- INFO: Process 6 get item 107 from queue and executing
+1665029036.968704 -- INFO: starting 6, 107, /home/cc/files_to_send/FILE2
+1665029037.743324 -- INFO: Throughput @120.2s:6635.58Mbps, rtt :34.35ms cwnd: 1476.4 lossRate: 0.0 CC:14 score:-5029.0 
+1665029038.276660 -- INFO: Process 2 finished on working on file 28 
+1665029038.278465 -- INFO: Process 2 get item 106 from queue and executing
+1665029038.278801 -- INFO: starting 2, 106, /home/cc/files_to_send/FILE0
+1665029038.744333 -- INFO: Throughput @121.2s:6833.98Mbps, rtt :34.87ms cwnd: 1510.2 lossRate: 0.0 CC:14 score:-5179.0 
+1665029039.271491 -- INFO: Gradient_Fast: -82.53333333333322, Gredient_Fast Change: 0.014679551787514062, Theta: 1, Previous CC: 14, Choosen CC: 15
+1665029039.271679 -- INFO: Changing concurrency to 15 ******
+1665029039.272561 -- INFO: Start Process :: 14
+1665029039.272950 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029039.273970 -- INFO: Active CC: 15
+1665029039.307518 -- INFO: Process 14 get item 96 from queue and executing
+1665029039.307726 -- INFO: starting 14, 96, /home/cc/files_to_send/FILE3
+1665029039.363459 -- INFO: Process 10 finished on working on file 27 
+1665029039.363883 -- INFO: Process 10 get item 108 from queue and executing
+1665029039.364045 -- INFO: starting 10, 108, /home/cc/files_to_send/FILE3
+1665029039.695342 -- INFO: Process 9 finished on working on file 62 
+1665029039.695736 -- INFO: Process 9 get item 98 from queue and executing
+1665029039.695858 -- INFO: starting 9, 98, /home/cc/files_to_send/FILE0
+1665029039.744922 -- INFO: Throughput @122.2s:6973.86Mbps, rtt :35.65ms cwnd: 1466.4 lossRate: 0.0 CC:15 score:-5182.0 
+1665029040.545393 -- INFO: Process 3 finished on working on file 125 
+1665029040.545987 -- INFO: Process 3 get item 92 from queue and executing
+1665029040.546196 -- INFO: starting 3, 92, /home/cc/files_to_send/FILE3
+1665029040.746747 -- INFO: Throughput @123.2s:7228.25Mbps, rtt :35.32ms cwnd: 1499.1 lossRate: 0.0 CC:15 score:-5371.0 
+1665029041.746989 -- INFO: Throughput @124.2s:7365.2Mbps, rtt :34.53ms cwnd: 1532.5 lossRate: 0.0 CC:15 score:-5472.0 
+1665029042.382222 -- INFO: Process 0 finished on working on file 65 
+1665029042.382624 -- INFO: Process 0 get item 95 from queue and executing
+1665029042.382771 -- INFO: starting 0, 95, /home/cc/files_to_send/FILE2
+1665029042.475000 -- INFO: Gradient_Fast: -132.0, Gredient_Fast Change: 0.02533751359651929, Theta: 2, Previous CC: 15, Choosen CC: 17
+1665029042.475196 -- INFO: Changing concurrency to 17 ******
+1665029042.476197 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029042.476136 -- INFO: Start Process :: 16
+1665029042.476197 -- INFO: Start Process :: 15
+1665029042.477515 -- INFO: Active CC: 17
+1665029042.512514 -- INFO: Process 16 get item 42 from queue and executing
+1665029042.512761 -- INFO: starting 16, 42, /home/cc/files_to_send/FILE0
+1665029042.513892 -- INFO: Process 15 get item 25 from queue and executing
+1665029042.514112 -- INFO: starting 15, 25, /home/cc/files_to_send/FILE1
+1665029042.747561 -- INFO: Throughput @125.2s:7530.24Mbps, rtt :35.84ms cwnd: 1425.5 lossRate: 0.0 CC:17 score:-5378.0 
+1665029043.616739 -- INFO: Process 2 finished on working on file 106 
+1665029043.617234 -- INFO: Process 2 get item 47 from queue and executing
+1665029043.617425 -- INFO: starting 2, 47, /home/cc/files_to_send/FILE2
+1665029043.691270 -- INFO: Process 3 finished on working on file 92 
+1665029043.691828 -- INFO: Process 3 get item 24 from queue and executing
+1665029043.691999 -- INFO: starting 3, 24, /home/cc/files_to_send/FILE3
+1665029043.748839 -- INFO: Throughput @126.2s:7888.22Mbps, rtt :35.92ms cwnd: 1495.1 lossRate: 4.839177984966287e-05 CC:17 score:-5630.0 
+1665029043.797265 -- INFO: Process 1 finished on working on file 112 
+1665029043.797679 -- INFO: Process 1 get item 26 from queue and executing
+1665029043.797846 -- INFO: starting 1, 26, /home/cc/files_to_send/FILE0
+1665029044.244405 -- INFO: Process 9 finished on working on file 98 
+1665029044.244814 -- INFO: Process 9 get item 46 from queue and executing
+1665029044.244973 -- INFO: starting 9, 46, /home/cc/files_to_send/FILE0
+1665029044.696535 -- INFO: Process 5 finished on working on file 127 
+1665029044.696929 -- INFO: Process 5 get item 116 from queue and executing
+1665029044.697129 -- INFO: starting 5, 116, /home/cc/files_to_send/FILE3
+1665029044.750456 -- INFO: Throughput @127.2s:8330.08Mbps, rtt :34.74ms cwnd: 1542.2 lossRate: 0.0 CC:17 score:-5949.0 
+1665029044.918968 -- INFO: Process 3 finished on working on file 24 
+1665029044.919429 -- INFO: Process 3 get item 119 from queue and executing
+1665029044.919601 -- INFO: starting 3, 119, /home/cc/files_to_send/FILE2
+1665029045.072663 -- INFO: Process 8 finished on working on file 68 
+1665029045.073133 -- INFO: Process 8 get item 66 from queue and executing
+1665029045.073310 -- INFO: starting 8, 66, /home/cc/files_to_send/FILE0
+1665029045.678489 -- INFO: Gradient_Fast: -155.33333333333303, Gredient_Fast Change: 0.029079563182527243, Theta: 3, Previous CC: 17, Choosen CC: 20
+1665029045.678705 -- INFO: Changing concurrency to 20 ******
+1665029045.679849 -- INFO: Start Process :: 17
+1665029045.680211 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1665029045.679965 -- INFO: Start Process :: 18
+1665029045.680987 -- INFO: Active CC: 20
+1665029045.681551 -- INFO: Start Process :: 19
+1665029045.716165 -- INFO: Process 17 get item 122 from queue and executing
+1665029045.716405 -- INFO: starting 17, 122, /home/cc/files_to_send/FILE0
+1665029045.716451 -- INFO: Process 18 get item 67 from queue and executing
+1665029045.716637 -- INFO: starting 18, 67, /home/cc/files_to_send/FILE2
+1665029045.717487 -- INFO: Process 19 get item 44 from queue and executing
+1665029045.717932 -- INFO: starting 19, 44, /home/cc/files_to_send/FILE3
+1665029045.750983 -- INFO: Throughput @128.2s:8374.76Mbps, rtt :34.87ms cwnd: 1348.2 lossRate: 0.0 CC:20 score:-5636.0 
+1665029045.923578 -- INFO: Process 3 finished on working on file 119 
+1665029045.924001 -- INFO: Process 3 get item 64 from queue and executing
+1665029045.924150 -- INFO: starting 3, 64, /home/cc/files_to_send/FILE3
+1665029046.752106 -- INFO: Throughput @129.2s:8771.75Mbps, rtt :37.28ms cwnd: 1468.2 lossRate: 6.644774350107845e-06 CC:20 score:-5903.0 
+1665029047.120084 -- INFO: Process 11 finished on working on file 109 
+1665029047.120530 -- INFO: Process 11 get item 43 from queue and executing
+1665029047.120690 -- INFO: starting 11, 43, /home/cc/files_to_send/FILE2
+1665029047.553345 -- INFO: Process 1 finished on working on file 26 
+1665029047.553750 -- INFO: Process 1 get item 78 from queue and executing
+1665029047.553932 -- INFO: starting 1, 78, /home/cc/files_to_send/FILE0
+1665029047.753170 -- INFO: Throughput @130.2s:8290.87Mbps, rtt :36.45ms cwnd: 1288.8 lossRate: 7.718550764908381e-05 CC:20 score:-5573.0 
+1665029048.615941 -- INFO: Process 2 finished on working on file 47 
+1665029048.756348 -- INFO: Throughput @131.2s:8352.32Mbps, rtt :35.79ms cwnd: 1285.3 lossRate: 0 CC:20 score:-5621.0 
+1665029048.881938 -- INFO: Gradient_Fast: -15.555555555555657, Gredient_Fast Change: 0.0027520591299561815, Theta: 4, Previous CC: 20, Choosen CC: 24
+1665029048.882110 -- INFO: Changing concurrency to 24 ******
+1665029048.883062 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1665029048.883713 -- INFO: Active CC: 24
+1665029049.757890 -- INFO: Throughput @132.2s:8061.45Mbps, rtt :36.26ms cwnd: 1321.5 lossRate: 0.0 CC:24 score:-5012.0 
+1665029050.555595 -- INFO: Process 11 finished on working on file 43 
+1665029050.759269 -- INFO: Throughput @133.2s:8008.39Mbps, rtt :34.4ms cwnd: 1307.1 lossRate: 0 CC:24 score:-4979.0 
+1665029050.846698 -- INFO: Process 5 finished on working on file 116 
+1665029051.127569 -- INFO: Process 4 finished on working on file 58 
+1665029051.161575 -- INFO: Process 16 finished on working on file 42 
+1665029051.761780 -- INFO: Throughput @134.2s:6585.25Mbps, rtt :34.13ms cwnd: 1234.5 lossRate: 0 CC:24 score:-4094.0 
+1665029052.088153 -- INFO: Gradient_Fast: 251.0, Gredient_Fast Change: 0.044042814528864715, Theta: -1, Previous CC: 24, Choosen CC: 22
+1665029052.088331 -- INFO: Changing concurrency to 22 ******
+1665029052.089233 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1665029052.090057 -- INFO: Active CC: 22
+1665029052.095820 -- INFO: Process 10 finished on working on file 108 
+1665029052.456678 -- INFO: Process 13 finished on working on file 69 
+1665029052.595471 -- INFO: Process 7 finished on working on file 97 
+1665029052.762041 -- INFO: Throughput @135.2s:5587.01Mbps, rtt :34.35ms cwnd: 1161.9 lossRate: 0 CC:22 score:-3614.0 
+1665029053.015622 -- INFO: Process 3 finished on working on file 64 
+1665029053.262988 -- INFO: Process 12 finished on working on file 88 
+1665029053.420094 -- INFO: Process 0 finished on working on file 95 
+1665029053.625177 -- INFO: Process 6 finished on working on file 107 
+1665029053.761987 -- INFO: Throughput @136.2s:3696.84Mbps, rtt :34.03ms cwnd: 858.9 lossRate: 0 CC:22 score:-2391.0 
+1665029054.763937 -- INFO: Throughput @137.2s:2382.36Mbps, rtt :34.02ms cwnd: 913.0 lossRate: 0.0 CC:22 score:-1541.0 
+1665029055.293887 -- INFO: Gradient_Fast: -1089.8333333333333, Gredient_Fast Change: 0.23212637557685478, Theta: 1, Previous CC: 22, Choosen CC: 28
+1665029055.294055 -- INFO: Changing concurrency to 28 ******
+1665029055.294951 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1665029055.295421 -- INFO: Active CC: 28
+1665029055.413801 -- INFO: Process 8 finished on working on file 66 
+1665029055.765581 -- INFO: Throughput @138.2s:2278.97Mbps, rtt :34.13ms cwnd: 796.3 lossRate: 0 CC:28 score:-1309.0 
+1665029056.768752 -- INFO: Throughput @139.2s:1929.38Mbps, rtt :34.17ms cwnd: 851.1 lossRate: 0.0 CC:28 score:-1108.0 
+1665029057.767071 -- INFO: Throughput @140.2s:2046.82Mbps, rtt :34.16ms cwnd: 914.0 lossRate: 0.0 CC:28 score:-1176.0 
+1665029058.086727 -- INFO: Process 18 finished on working on file 67 
+1665029058.501239 -- INFO: Gradient_Fast: 219.61111111111111, Gredient_Fast Change: 0.0873089495538475, Theta: -1, Previous CC: 28, Choosen CC: 25
+1665029058.501458 -- INFO: Changing concurrency to 25 ******
+1665029058.501928 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1665029058.502403 -- INFO: Active CC: 25
+1665029058.637253 -- INFO: Process 9 finished on working on file 46 
+1665029058.768432 -- INFO: Throughput @141.2s:1873.58Mbps, rtt :34.06ms cwnd: 826.8 lossRate: 0 CC:25 score:-1142.0 
+1665029059.769954 -- INFO: Throughput @142.2s:1442.84Mbps, rtt :34.01ms cwnd: 901.4 lossRate: 0.0 CC:25 score:-879.0 
+1665029060.771046 -- INFO: Throughput @143.2s:1593.84Mbps, rtt :34.03ms cwnd: 996.0 lossRate: 0.0 CC:25 score:-971.0 
+1665029061.598220 -- INFO: Process 14 finished on working on file 96 
+1665029061.706052 -- INFO: Gradient_Fast: -66.77777777777779, Gredient_Fast Change: 0.055756563688653865, Theta: 1, Previous CC: 25, Choosen CC: 27
+1665029061.706232 -- INFO: Changing concurrency to 27 ******
+1665029061.706961 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1665029061.707507 -- INFO: Active CC: 27
+1665029061.773358 -- INFO: Throughput @144.2s:1674.99Mbps, rtt :34.21ms cwnd: 926.0 lossRate: 0 CC:27 score:-981.0 
+1665029062.644067 -- INFO: Process 19 finished on working on file 44 
+1665029062.772834 -- INFO: Throughput @145.2s:1272.34Mbps, rtt :34.23ms cwnd: 1123.3 lossRate: 0 CC:27 score:-745.0 
+1665029063.773719 -- INFO: Throughput @146.2s:1140.85Mbps, rtt :34.2ms cwnd: 1230.3 lossRate: 0.0 CC:27 score:-668.0 
+1665029064.772102 -- INFO: Throughput @147.2s:1291.85Mbps, rtt :34.31ms cwnd: 1328.7 lossRate: 0.0 CC:27 score:-757.0 
+1665029064.910965 -- INFO: Gradient_Fast: 137.0, Gredient_Fast Change: 0.1373663101604278, Theta: -1, Previous CC: 27, Choosen CC: 23
+1665029064.911171 -- INFO: Changing concurrency to 23 ******
+1665029064.911658 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1665029064.912080 -- INFO: Active CC: 23
+1665029065.539224 -- INFO: Process 15 finished on working on file 25 
+1665029065.772457 -- INFO: Throughput @148.2s:1163.28Mbps, rtt :34.02ms cwnd: 933.0 lossRate: 0 CC:23 score:-738.0 
+1665029066.778375 -- INFO: Throughput @149.2s:637.53Mbps, rtt :33.97ms cwnd: 972.0 lossRate: 0.0 CC:23 score:-404.0 
+1665029067.285670 -- INFO: Process 1 finished on working on file 78 
+1665029067.777522 -- INFO: Throughput @150.2s:483.81Mbps, rtt :34.2ms cwnd: 872.0 lossRate: 0 CC:23 score:-307.0 
+1665029068.115723 -- INFO: Gradient_Fast: -60.08333333333334, Gredient_Fast Change: 0.08306451612903226, Theta: 1, Previous CC: 23, Choosen CC: 25
+1665029068.115936 -- INFO: Changing concurrency to 25 ******
+1665029068.116773 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1665029068.117483 -- INFO: Active CC: 25
+1665029068.779193 -- INFO: Throughput @151.2s:310.38Mbps, rtt :34.03ms cwnd: 938.0 lossRate: 0.0 CC:25 score:-189.0 
+1665029069.778872 -- INFO: Throughput @152.2s:327.16Mbps, rtt :34.02ms cwnd: 1026.0 lossRate: 0.0 CC:25 score:-199.0 
+1665029070.782301 -- INFO: Throughput @153.2s:352.32Mbps, rtt :33.98ms cwnd: 1132.0 lossRate: 0.0 CC:25 score:-215.0 
+1665029071.321752 -- INFO: Gradient_Fast: 141.0, Gredient_Fast Change: 0.2919254658385093, Theta: -1, Previous CC: 25, Choosen CC: 17
+1665029071.321920 -- INFO: Changing concurrency to 17 ******
+1665029071.322522 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029071.323324 -- INFO: Active CC: 17
+1665029071.326069 -- INFO: Start Process :: 0
+1665029071.326125 -- INFO: Start Process :: 5
+1665029071.326205 -- INFO: Start Process :: 12
+1665029071.326304 -- INFO: Start Process :: 13
+1665029071.326534 -- INFO: Start Process :: 10
+1665029071.326576 -- INFO: Start Process :: 4
+1665029071.326631 -- INFO: Start Process :: 14
+1665029071.326518 -- INFO: Start Process :: 8
+1665029071.326736 -- INFO: Start Process :: 1
+1665029071.326820 -- INFO: Start Process :: 16
+1665029071.327073 -- INFO: Start Process :: 15
+1665029071.327164 -- INFO: Start Process :: 11
+1665029071.327252 -- INFO: Start Process :: 6
+1665029071.327200 -- INFO: Start Process :: 2
+1665029071.327346 -- INFO: Start Process :: 7
+1665029071.327462 -- INFO: Start Process :: 9
+1665029071.327883 -- INFO: Start Process :: 3
+1665029071.359657 -- INFO: Process 5 get item 122 from queue and executing
+1665029071.359829 -- INFO: starting 5, 122, /home/cc/files_to_send/FILE0
+1665029071.776813 -- INFO: Throughput @154.2s:301.99Mbps, rtt :33.27ms cwnd: 836.0 lossRate: 0 CC:17 score:-216.0 
+1665029072.091969 -- INFO: Process 5 finished on working on file 122 
+1665029072.092013 -- INFO: Process 18 shutdown itself from outest loop
+1665029072.092037 -- INFO: Process 23 shutdown itself from outest loop
+1665029072.092054 -- INFO: Process 20 shutdown itself from outest loop
+1665029072.092060 -- INFO: Process 7 shutdown itself from outest loop
+1665029072.092060 -- INFO: Process 17 shutdown itself from outest loop
+1665029072.092077 -- INFO: Process 22 shutdown itself from outest loop
+1665029072.092072 -- INFO: Process 21 shutdown itself from outest loop
+1665029072.092121 -- INFO: Process 6 shutdown itself from outest loop
+1665029072.092090 -- INFO: Process 25 shutdown itself from outest loop
+1665029072.092111 -- INFO: Process 19 shutdown itself from outest loop
+1665029072.092130 -- INFO: Process 16 shutdown itself from outest loop
+1665029072.092193 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092142 -- INFO: Process 11 shutdown itself from outest loop
+1665029072.092213 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092221 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092077 -- INFO: Process 27 shutdown itself from outest loop
+1665029072.092217 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092226 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092231 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092082 -- INFO: Process 28 shutdown itself from outest loop
+1665029072.092227 -- INFO: Process 14 shutdown itself from outest loop
+1665029072.092286 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092306 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092317 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092325 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092270 -- INFO: Process 12 shutdown itself from outest loop
+1665029072.092331 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092353 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092305 -- INFO: Process 10 shutdown itself from outest loop
+1665029072.092352 -- INFO: Process 1 shutdown itself from outest loop
+1665029072.092366 -- INFO: Process 8 shutdown itself from outest loop
+1665029072.092416 -- INFO: Process 15 shutdown itself from outest loop
+1665029072.092444 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092497 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092516 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092557 -- INFO: Process 9 shutdown itself from outest loop
+1665029072.092592 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092623 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092626 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092635 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092655 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092694 -- INFO: Process Status Bits are: 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092707 -- INFO: Process 5 shutdown itself from outest loop
+1665029072.092732 -- INFO: Process 4 shutdown itself from outest loop
+1665029072.092805 -- INFO: Process Status Bits are: 1 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092412 -- INFO: Process 30 shutdown itself from outest loop
+1665029072.092450 -- INFO: Process 29 shutdown itself from outest loop
+1665029072.092890 -- INFO: Process Status Bits are: 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092862 -- INFO: Process 3 shutdown itself from outest loop
+1665029072.092892 -- INFO: Process 13 shutdown itself from outest loop
+1665029072.092950 -- INFO: Process 0 shutdown itself from outest loop
+1665029072.093040 -- INFO: Process Status Bits are: 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093058 -- INFO: Process Status Bits are: 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093073 -- INFO: Process Status Bits are: 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093079 -- INFO: Process Status Bits are: 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093096 -- INFO: Process Status Bits are: 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.092635 -- INFO: Process 24 shutdown itself from outest loop
+1665029072.092656 -- INFO: Process 26 shutdown itself from outest loop
+1665029072.093709 -- INFO: Process Status Bits are: 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093774 -- INFO: Process 2 shutdown itself from outest loop
+1665029072.093820 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093912 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029072.093639 -- INFO: Process 31 shutdown itself from outest loop
+1665029072.094986 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1665029074.524648 -- INFO: Gradient_Fast: 1.125, Gredient_Fast Change: 0.005597014925373134, Theta: -2, Previous CC: 17, Choosen CC: 15
+1665029074.524894 -- INFO: GD_Fast Optimizer Exits ...
+1665029074.724719 -- INFO: Throughput @0.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:-0.0 
