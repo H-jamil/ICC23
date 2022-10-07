@@ -110,6 +110,58 @@ def gradient_opt_fast(transferEnvironment):
     return ccs
 
 
+def gradient_opt_fast_oscillation_free(transferEnvironment):
+    max_thread, count = transferEnvironment.action_space.n, 0
+    soft_limit, least_cost = max_thread, 0
+    values = []
+    ccs = [1]
+    theta = 0
+
+    while True:
+        state,score,done,_=transferEnvironment.step(ccs[-1])
+        values.append(score)
+        if done:
+            transferEnvironment.transferClassObject.log.info("GD_Fast Optimizer Exits ...")
+            break
+
+        if values[-1] < least_cost:
+            least_cost = values[-1]
+            soft_limit = min(ccs[-1]+10, max_thread)
+
+        if len(ccs) == 1:
+            ccs.append(2)
+
+        else:
+            dist = max(1, np.abs(ccs[-1] - ccs[-2]))
+            if ccs[-1]>ccs[-2]:
+                gradient = (values[-1] - values[-2])/dist
+            else:
+                gradient = (values[-2] - values[-1])/dist
+
+            if values[-2] !=0:
+                gradient_change = np.abs(gradient/values[-2])
+            else:
+                gradient_change = np.abs(gradient)
+
+            if gradient>0:
+                if theta <= 0:
+                    theta -= 1
+                else:
+                    theta =-1
+
+            else:
+                if theta >= 0:
+                    theta += 1
+                else:
+                    theta = 1
+
+            update_cc = int(theta * np.ceil(ccs[-1] * gradient_change))
+            next_cc = min(max(ccs[-1] + update_cc, 2), soft_limit)
+            transferEnvironment.transferClassObject.log.info("Gradient_Fast_oscillation_free: {0}, Gradient_Fast_oscillation_free Change: {1}, Theta: {2}, Previous CC: {3}, Choosen CC: {4}".format(gradient, gradient_change, theta, ccs[-1], next_cc))
+            ccs.append(next_cc)
+
+    return ccs
+
 def bayes_optimizer(transferEnvironment,configurations):
     limit_obs, count = 25, 0
     max_thread = transferEnvironment.action_space.n

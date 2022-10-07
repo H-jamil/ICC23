@@ -52,7 +52,7 @@ class TransferClass:
             sock.settimeout(3)
             sock.connect((self.HOST, self.PORT))
             if self.transfer_emu_status.value ==1:
-              target, factor = 500, 10
+              target, factor = 50, 10
               max_speed = (target * 1000 * 1000)/8
               second_target, second_data_count = int(max_speed/factor), 0
             while (not q.empty()) and (self.process_status[process_id] == 1):

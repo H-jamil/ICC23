@@ -1,0 +1,725 @@
+1664845974.303158 -- INFO: Changing concurrency to 1 ******
+1664845974.305807 -- INFO: Start Process :: 0
+1664845974.312737 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845974.318980 -- INFO: Active CC: 1
+1664845974.345736 -- INFO: Process 0 get item 0 from queue and executing
+1664845974.346111 -- INFO: starting 0, 0, /users/jamilm/files_to_Send/FILE2
+1664845974.378604 -- INFO: Throughput @0.1s:8.34Mbps, rtt :38.57ms cwnd: 10.0 lossRate: 0.0 CC:1 score:-8.0 
+1664845975.366684 -- INFO: Throughput @1.1s:10.66Mbps, rtt :40.0ms cwnd: 27.0 lossRate: 0.005188067444876783 CC:1 score:-10.0 
+1664845976.373040 -- INFO: Throughput @2.1s:5.73Mbps, rtt :41.61ms cwnd: 23.0 lossRate: 0.005050505050505051 CC:1 score:-5.0 
+1664845977.371599 -- INFO: Throughput @3.1s:5.21Mbps, rtt :39.1ms cwnd: 21.0 lossRate: 0.006864988558352402 CC:1 score:-5.0 
+1664845977.522074 -- INFO: Changing concurrency to 3 ******
+1664845977.525346 -- INFO: Start Process :: 2
+1664845977.525466 -- INFO: Start Process :: 1
+1664845977.531601 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845977.537934 -- INFO: Active CC: 3
+1664845977.565266 -- INFO: Process 2 get item 1 from queue and executing
+1664845977.565434 -- INFO: Process 1 get item 2 from queue and executing
+1664845977.565924 -- INFO: starting 2, 1, /users/jamilm/files_to_Send/FILE1
+1664845977.566123 -- INFO: starting 1, 2, /users/jamilm/files_to_Send/FILE0
+1664845978.370774 -- INFO: Throughput @4.1s:25.5Mbps, rtt :40.62ms cwnd: 33.3 lossRate: 0.0021208907741251328 CC:3 score:-23.0 
+1664845979.372118 -- INFO: Throughput @5.1s:24.95Mbps, rtt :39.15ms cwnd: 26.3 lossRate: 0.004894762604013705 CC:3 score:-22.0 
+1664845980.375205 -- INFO: Throughput @6.1s:17.91Mbps, rtt :38.87ms cwnd: 16.7 lossRate: 0.009683666881859263 CC:3 score:-15.0 
+1664845980.739140 -- INFO: Gradient: -6.666666666666666, Gredient Change: 0.9999999999999999, Theta: 1, Previous CC: 2, Choosen CC: 4
+1664845980.739249 -- INFO: Changing concurrency to 3 ******
+1664845980.744878 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845980.749307 -- INFO: Active CC: 3
+1664845981.374366 -- INFO: Throughput @7.1s:17.02Mbps, rtt :39.4ms cwnd: 20.3 lossRate: 0.004487179487179487 CC:3 score:-15.0 
+1664845982.377070 -- INFO: Throughput @8.1s:16.75Mbps, rtt :40.0ms cwnd: 17.7 lossRate: 0.008553100498930863 CC:3 score:-14.0 
+1664845983.378052 -- INFO: Throughput @9.1s:17.11Mbps, rtt :39.81ms cwnd: 21.3 lossRate: 0.0048543689320388345 CC:3 score:-15.0 
+1664845983.950478 -- INFO: Changing concurrency to 5 ******
+1664845983.955241 -- INFO: Start Process :: 4
+1664845983.956927 -- INFO: Start Process :: 3
+1664845983.957819 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845983.962631 -- INFO: Active CC: 5
+1664845983.995113 -- INFO: Process 4 get item 3 from queue and executing
+1664845983.995723 -- INFO: starting 4, 3, /users/jamilm/files_to_Send/FILE3
+1664845983.997448 -- INFO: Process 3 get item 4 from queue and executing
+1664845983.998095 -- INFO: starting 3, 4, /users/jamilm/files_to_Send/FILE2
+1664845984.379915 -- INFO: Throughput @10.1s:26.59Mbps, rtt :39.78ms cwnd: 20.8 lossRate: 0.009528585757271816 CC:5 score:-22.0 
+1664845985.381602 -- INFO: Throughput @11.1s:30.15Mbps, rtt :39.55ms cwnd: 22.6 lossRate: 0.004741064916119621 CC:5 score:-26.0 
+1664845986.380324 -- INFO: Throughput @12.1s:29.67Mbps, rtt :38.85ms cwnd: 15.8 lossRate: 0.009387755102040816 CC:5 score:-24.0 
+1664845987.163761 -- INFO: Gradient: -4.666666666666667, Gredient Change: 0.31818181818181823, Theta: 2, Previous CC: 4, Choosen CC: 8
+1664845987.163864 -- INFO: Changing concurrency to 7 ******
+1664845987.167531 -- INFO: Start Process :: 6
+1664845987.167626 -- INFO: Start Process :: 5
+1664845987.169721 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845987.176636 -- INFO: Active CC: 7
+1664845987.207652 -- INFO: Process 6 get item 5 from queue and executing
+1664845987.207777 -- INFO: Process 5 get item 6 from queue and executing
+1664845987.208086 -- INFO: starting 6, 5, /users/jamilm/files_to_Send/FILE1
+1664845987.208482 -- INFO: starting 5, 6, /users/jamilm/files_to_Send/FILE0
+1664845987.383065 -- INFO: Throughput @13.1s:31.67Mbps, rtt :39.26ms cwnd: 19.7 lossRate: 0.006952965235173824 CC:7 score:-25.0 
+1664845988.383199 -- INFO: Throughput @14.1s:53.59Mbps, rtt :40.57ms cwnd: 34.6 lossRate: 0.0035531867643793028 CC:7 score:-45.0 
+1664845989.385023 -- INFO: Throughput @15.1s:55.24Mbps, rtt :39.31ms cwnd: 23.7 lossRate: 0.0056568196103079825 CC:7 score:-45.0 
+1664845990.377733 -- INFO: Changing concurrency to 9 ******
+1664845990.381737 -- INFO: Start Process :: 7
+1664845990.383029 -- INFO: Throughput @16.1s:43.25Mbps, rtt :39.21ms cwnd: 21.7 lossRate: 0.007393209200438116 CC:7 score:-34.0 
+1664845990.383609 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845990.384569 -- INFO: Start Process :: 8
+1664845990.389125 -- INFO: Active CC: 9
+1664845990.421699 -- INFO: Process 7 get item 7 from queue and executing
+1664845990.422117 -- INFO: starting 7, 7, /users/jamilm/files_to_Send/FILE3
+1664845990.424923 -- INFO: Process 8 get item 8 from queue and executing
+1664845990.425373 -- INFO: starting 8, 8, /users/jamilm/files_to_Send/FILE2
+1664845991.386227 -- INFO: Throughput @17.1s:77.91Mbps, rtt :39.32ms cwnd: 31.8 lossRate: 0.003273858241938124 CC:9 score:-63.0 
+1664845992.388249 -- INFO: Throughput @18.1s:105.64Mbps, rtt :39.58ms cwnd: 55.7 lossRate: 0.002471789360558839 CC:9 score:-86.0 
+1664845993.389378 -- INFO: Throughput @19.1s:107.88Mbps, rtt :39.61ms cwnd: 51.4 lossRate: 0.0026901969224147207 CC:9 score:-87.0 
+1664845993.590196 -- INFO: Gradient: -20.166666666666668, Gredient Change: 0.5260869565217391, Theta: 3, Previous CC: 8, Choosen CC: 17
+1664845993.590295 -- INFO: Changing concurrency to 16 ******
+1664845993.594111 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845993.597111 -- INFO: Active CC: 16
+1664845993.597593 -- INFO: Start Process :: 9
+1664845993.598083 -- INFO: Start Process :: 13
+1664845993.598603 -- INFO: Start Process :: 12
+1664845993.599167 -- INFO: Start Process :: 14
+1664845993.599445 -- INFO: Start Process :: 15
+1664845993.600896 -- INFO: Start Process :: 10
+1664845993.600964 -- INFO: Start Process :: 11
+1664845993.637600 -- INFO: Process 9 get item 9 from queue and executing
+1664845993.637720 -- INFO: Process 13 get item 10 from queue and executing
+1664845993.637988 -- INFO: starting 9, 9, /users/jamilm/files_to_Send/FILE1
+1664845993.638022 -- INFO: starting 13, 10, /users/jamilm/files_to_Send/FILE0
+1664845993.638623 -- INFO: Process 12 get item 11 from queue and executing
+1664845993.639016 -- INFO: starting 12, 11, /users/jamilm/files_to_Send/FILE3
+1664845993.639435 -- INFO: Process 14 get item 12 from queue and executing
+1664845993.639524 -- INFO: Process 15 get item 13 from queue and executing
+1664845993.639920 -- INFO: starting 14, 12, /users/jamilm/files_to_Send/FILE2
+1664845993.639961 -- INFO: starting 15, 13, /users/jamilm/files_to_Send/FILE1
+1664845993.641412 -- INFO: Process 10 get item 14 from queue and executing
+1664845993.641690 -- INFO: Process 11 get item 15 from queue and executing
+1664845993.641808 -- INFO: starting 10, 14, /users/jamilm/files_to_Send/FILE0
+1664845993.642188 -- INFO: starting 11, 15, /users/jamilm/files_to_Send/FILE3
+1664845994.387284 -- INFO: Throughput @20.1s:179.34Mbps, rtt :39.14ms cwnd: 41.8 lossRate: 0.0036384805705137534 CC:16 score:-124.0 
+1664845995.387969 -- INFO: Throughput @21.1s:159.98Mbps, rtt :39.17ms cwnd: 30.1 lossRate: 0.005180127148575465 CC:16 score:-108.0 
+1664845996.388442 -- INFO: Throughput @22.1s:111.78Mbps, rtt :39.15ms cwnd: 23.6 lossRate: 0.005548525260391317 CC:16 score:-75.0 
+1664845996.798359 -- INFO: Changing concurrency to 18 ******
+1664845996.800823 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664845996.802945 -- INFO: Active CC: 18
+1664845996.803359 -- INFO: Start Process :: 16
+1664845996.804422 -- INFO: Start Process :: 17
+1664845996.843389 -- INFO: Process 16 get item 16 from queue and executing
+1664845996.843860 -- INFO: starting 16, 16, /users/jamilm/files_to_Send/FILE2
+1664845996.844550 -- INFO: Process 17 get item 17 from queue and executing
+1664845996.844963 -- INFO: starting 17, 17, /users/jamilm/files_to_Send/FILE1
+1664845997.385115 -- INFO: Throughput @23.1s:118.6Mbps, rtt :39.07ms cwnd: 22.6 lossRate: 0.005168472318854984 CC:18 score:-77.0 
+1664845998.388120 -- INFO: Throughput @24.1s:125.86Mbps, rtt :39.11ms cwnd: 24.1 lossRate: 0.004662457503642545 CC:18 score:-82.0 
+1664845999.393601 -- INFO: Throughput @25.1s:110.44Mbps, rtt :39.38ms cwnd: 22.1 lossRate: 0.005721369314389243 CC:18 score:-71.0 
+1664846000.003973 -- INFO: Gradient: 12.833333333333329, Gredient Change: 0.12540716612377847, Theta: -1, Previous CC: 17, Choosen CC: 14
+1664846000.004122 -- INFO: Changing concurrency to 13 ******
+1664846000.005038 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846000.006714 -- INFO: Active CC: 13
+1664846000.393507 -- INFO: Throughput @26.1s:128.45Mbps, rtt :39.24ms cwnd: 25.3 lossRate: 0.004256089830661958 CC:13 score:-94.0 
+1664846001.396056 -- INFO: Throughput @27.1s:95.89Mbps, rtt :40.21ms cwnd: 20.2 lossRate: 0 CC:13 score:-74.0 
+1664846002.396688 -- INFO: Throughput @28.1s:79.26Mbps, rtt :39.61ms cwnd: 19.7 lossRate: 0.006822316555488175 CC:13 score:-56.0 
+1664846003.207762 -- INFO: Changing concurrency to 15 ******
+1664846003.209995 -- INFO: Start Process :: 13
+1664846003.210278 -- INFO: Start Process :: 14
+1664846003.211160 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846003.215115 -- INFO: Active CC: 15
+1664846003.249370 -- INFO: Process 13 get item 18 from queue and executing
+1664846003.250001 -- INFO: starting 13, 18, /users/jamilm/files_to_Send/FILE0
+1664846003.250002 -- INFO: Process 14 get item 19 from queue and executing
+1664846003.250780 -- INFO: starting 14, 19, /users/jamilm/files_to_Send/FILE3
+1664846003.394107 -- INFO: Throughput @29.1s:84.19Mbps, rtt :39.04ms cwnd: 20.7 lossRate: 0.00514675198219502 CC:15 score:-58.0 
+1664846004.396626 -- INFO: Throughput @30.1s:94.29Mbps, rtt :39.48ms cwnd: 23.5 lossRate: 0.004656862745098039 CC:15 score:-66.0 
+1664846005.395484 -- INFO: Throughput @31.1s:95.64Mbps, rtt :39.68ms cwnd: 19.7 lossRate: 0.007328605200945627 CC:15 score:-64.0 
+1664846006.401126 -- INFO: Throughput @32.1s:91.93Mbps, rtt :39.06ms cwnd: 20.7 lossRate: 0.005898948448320082 CC:15 score:-63.0 
+1664846006.416137 -- INFO: Gradient: 5.166666666666671, Gredient Change: 0.06919642857142863, Theta: -2, Previous CC: 14, Choosen CC: 12
+1664846006.416244 -- INFO: Changing concurrency to 11 ******
+1664846006.418177 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846006.420509 -- INFO: Active CC: 11
+1664846007.404129 -- INFO: Throughput @33.1s:73.66Mbps, rtt :39.23ms cwnd: 21.1 lossRate: 0 CC:11 score:-59.0 
+1664846008.403293 -- INFO: Throughput @34.1s:63.39Mbps, rtt :39.65ms cwnd: 21.5 lossRate: 0.006588579795021962 CC:11 score:-47.0 
+1664846009.400051 -- INFO: Throughput @35.1s:67.98Mbps, rtt :39.47ms cwnd: 18.1 lossRate: 0.007329668499083792 CC:11 score:-50.0 
+1664846009.621332 -- INFO: Changing concurrency to 13 ******
+1664846009.622933 -- INFO: Start Process :: 12
+1664846009.622994 -- INFO: Start Process :: 11
+1664846009.624028 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846009.626340 -- INFO: Active CC: 13
+1664846009.662532 -- INFO: Process 11 get item 20 from queue and executing
+1664846009.662678 -- INFO: Process 12 get item 21 from queue and executing
+1664846009.663181 -- INFO: starting 11, 20, /users/jamilm/files_to_Send/FILE2
+1664846009.663281 -- INFO: starting 12, 21, /users/jamilm/files_to_Send/FILE1
+1664846010.401385 -- INFO: Throughput @36.1s:65.15Mbps, rtt :39.34ms cwnd: 19.3 lossRate: 0.006201550387596899 CC:13 score:-46.0 
+1664846011.404836 -- INFO: Throughput @37.1s:88.18Mbps, rtt :39.16ms cwnd: 25.7 lossRate: 0.002554604674926555 CC:13 score:-66.0 
+1664846012.403982 -- INFO: Throughput @38.1s:103.52Mbps, rtt :39.45ms cwnd: 24.1 lossRate: 0.005514926267833593 CC:13 score:-74.0 
+1664846012.827294 -- INFO: Gradient: -5.0, Gredient Change: 0.09615384615384616, Theta: 1, Previous CC: 12, Choosen CC: 14
+1664846012.827396 -- INFO: Changing concurrency to 13 ******
+1664846012.831425 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846012.834046 -- INFO: Active CC: 13
+1664846013.407373 -- INFO: Throughput @39.1s:87.93Mbps, rtt :40.35ms cwnd: 21.6 lossRate: 0.0058267512624627735 CC:13 score:-63.0 
+1664846014.409274 -- INFO: Throughput @40.1s:82.41Mbps, rtt :39.89ms cwnd: 21.3 lossRate: 0.005581395348837209 CC:13 score:-59.0 
+1664846015.408627 -- INFO: Throughput @41.1s:89.41Mbps, rtt :39.55ms cwnd: 21.3 lossRate: 0.005434782608695652 CC:13 score:-64.0 
+1664846016.035093 -- INFO: Changing concurrency to 15 ******
+1664846016.037454 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846016.037188 -- INFO: Start Process :: 14
+1664846016.038964 -- INFO: Start Process :: 13
+1664846016.040815 -- INFO: Active CC: 15
+1664846016.076862 -- INFO: Process 14 get item 22 from queue and executing
+1664846016.077409 -- INFO: starting 14, 22, /users/jamilm/files_to_Send/FILE0
+1664846016.079552 -- INFO: Process 13 get item 23 from queue and executing
+1664846016.080105 -- INFO: starting 13, 23, /users/jamilm/files_to_Send/FILE3
+1664846016.411005 -- INFO: Throughput @42.1s:87.25Mbps, rtt :39.9ms cwnd: 22.1 lossRate: 0.0048655569782330346 CC:15 score:-61.0 
+1664846017.411319 -- INFO: Throughput @43.1s:102.23Mbps, rtt :39.76ms cwnd: 23.8 lossRate: 0.004252873563218391 CC:15 score:-72.0 
+1664846018.411155 -- INFO: Throughput @44.1s:101.61Mbps, rtt :39.48ms cwnd: 23.9 lossRate: 0.00453941541186891 CC:15 score:-71.0 
+1664846019.241690 -- INFO: Gradient: -3.0, Gredient Change: 0.04838709677419355, Theta: 2, Previous CC: 14, Choosen CC: 16
+1664846019.241793 -- INFO: Changing concurrency to 15 ******
+1664846019.244525 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846019.247096 -- INFO: Active CC: 15
+1664846019.414655 -- INFO: Throughput @45.1s:107.03Mbps, rtt :39.82ms cwnd: 22.7 lossRate: 0.005059590735327187 CC:15 score:-74.0 
+1664846020.414775 -- INFO: Throughput @46.1s:93.46Mbps, rtt :40.21ms cwnd: 19.9 lossRate: 0.007120058924625583 CC:15 score:-63.0 
+1664846021.416448 -- INFO: Throughput @47.1s:94.47Mbps, rtt :39.37ms cwnd: 21.5 lossRate: 0.004746835443037975 CC:15 score:-66.0 
+1664846022.416272 -- INFO: Throughput @48.1s:98.07Mbps, rtt :39.84ms cwnd: 22.7 lossRate: 0.004710315591144607 CC:15 score:-68.0 
+1664846022.447935 -- INFO: Changing concurrency to 17 ******
+1664846022.449207 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846022.449581 -- INFO: Start Process :: 15
+1664846022.449784 -- INFO: Start Process :: 16
+1664846022.451052 -- INFO: Active CC: 17
+1664846022.489389 -- INFO: Process 15 get item 24 from queue and executing
+1664846022.489542 -- INFO: Process 16 get item 25 from queue and executing
+1664846022.489949 -- INFO: starting 15, 24, /users/jamilm/files_to_Send/FILE2
+1664846022.490139 -- INFO: starting 16, 25, /users/jamilm/files_to_Send/FILE1
+1664846023.417095 -- INFO: Throughput @49.1s:120.11Mbps, rtt :39.13ms cwnd: 27.0 lossRate: 0.0031566864358140425 CC:17 score:-82.0 
+1664846024.414284 -- INFO: Throughput @50.1s:151.13Mbps, rtt :39.26ms cwnd: 28.4 lossRate: 0.00394017368928916 CC:17 score:-102.0 
+1664846025.418716 -- INFO: Throughput @51.1s:117.84Mbps, rtt :39.72ms cwnd: 22.9 lossRate: 0.006235011990407674 CC:17 score:-77.0 
+1664846025.652034 -- INFO: Gradient: -10.666666666666664, Gredient Change: 0.1624365482233502, Theta: 3, Previous CC: 16, Choosen CC: 25
+1664846025.652162 -- INFO: Changing concurrency to 24 ******
+1664846025.653557 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1664846025.654289 -- INFO: Active CC: 24
+1664846025.654376 -- INFO: Start Process :: 17
+1664846025.657784 -- INFO: Start Process :: 18
+1664846025.658250 -- INFO: Start Process :: 23
+1664846025.658484 -- INFO: Start Process :: 21
+1664846025.659039 -- INFO: Start Process :: 19
+1664846025.659388 -- INFO: Start Process :: 20
+1664846025.660093 -- INFO: Start Process :: 22
+1664846025.694374 -- INFO: Process 17 get item 26 from queue and executing
+1664846025.694994 -- INFO: starting 17, 26, /users/jamilm/files_to_Send/FILE0
+1664846025.697744 -- INFO: Process 18 get item 27 from queue and executing
+1664846025.698306 -- INFO: Process 21 get item 28 from queue and executing
+1664846025.698272 -- INFO: starting 18, 27, /users/jamilm/files_to_Send/FILE3
+1664846025.698519 -- INFO: Process 23 get item 29 from queue and executing
+1664846025.698729 -- INFO: starting 21, 28, /users/jamilm/files_to_Send/FILE2
+1664846025.698785 -- INFO: starting 23, 29, /users/jamilm/files_to_Send/FILE1
+1664846025.698934 -- INFO: Process 19 get item 30 from queue and executing
+1664846025.699158 -- INFO: Process 20 get item 31 from queue and executing
+1664846025.699342 -- INFO: starting 19, 30, /users/jamilm/files_to_Send/FILE0
+1664846025.699671 -- INFO: starting 20, 31, /users/jamilm/files_to_Send/FILE3
+1664846025.700434 -- INFO: Process 22 get item 10 from queue and executing
+1664846025.700879 -- INFO: starting 22, 10, /users/jamilm/files_to_Send/FILE0
+1664846026.418120 -- INFO: Throughput @52.1s:150.15Mbps, rtt :39.35ms cwnd: 22.7 lossRate: 0.0044584954604409855 CC:24 score:-87.0 
+1664846027.415658 -- INFO: Throughput @53.1s:166.55Mbps, rtt :39.33ms cwnd: 24.5 lossRate: 0.003804737975592247 CC:24 score:-97.0 
+1664846028.417931 -- INFO: Throughput @54.1s:161.83Mbps, rtt :39.39ms cwnd: 23.2 lossRate: 0.005881936078236836 CC:24 score:-91.0 
+1664846028.855375 -- INFO: Changing concurrency to 26 ******
+1664846028.856081 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+1664846028.856720 -- INFO: Active CC: 26
+1664846028.859171 -- INFO: Start Process :: 25
+1664846028.859390 -- INFO: Start Process :: 24
+1664846028.899586 -- INFO: Process 25 get item 13 from queue and executing
+1664846028.899701 -- INFO: Process 24 get item 17 from queue and executing
+1664846028.899895 -- INFO: starting 25, 13, /users/jamilm/files_to_Send/FILE1
+1664846028.900113 -- INFO: starting 24, 17, /users/jamilm/files_to_Send/FILE1
+1664846029.422163 -- INFO: Throughput @55.1s:162.91Mbps, rtt :40.03ms cwnd: 23.0 lossRate: 0.005491865174709961 CC:26 score:-88.0 
+1664846030.422017 -- INFO: Throughput @56.1s:170.33Mbps, rtt :39.72ms cwnd: 21.3 lossRate: 0.006245710363761153 CC:26 score:-91.0 
+1664846031.423811 -- INFO: Throughput @57.1s:167.95Mbps, rtt :39.67ms cwnd: 22.0 lossRate: 0.005213913291907721 CC:26 score:-92.0 
+1664846032.057829 -- INFO: Gradient: 0.6666666666666714, Gredient Change: 0.007272727272727324, Theta: -1, Previous CC: 25, Choosen CC: 24
+1664846032.057964 -- INFO: Changing concurrency to 23 ******
+1664846032.058534 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1664846032.058941 -- INFO: Active CC: 23
+1664846032.424945 -- INFO: Throughput @58.1s:162.54Mbps, rtt :39.61ms cwnd: 23.5 lossRate: 0.004233017536786938 CC:23 score:-96.0 
+1664846033.422430 -- INFO: Throughput @59.1s:176.46Mbps, rtt :39.73ms cwnd: 23.8 lossRate: 0.003943217665615142 CC:23 score:-105.0 
+1664846034.420166 -- INFO: Throughput @60.1s:150.9Mbps, rtt :39.38ms cwnd: 23.7 lossRate: 0.005583265093426636 CC:23 score:-87.0 
+1664846035.259813 -- INFO: Changing concurrency to 25 ******
+1664846035.260459 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1664846035.260618 -- INFO: Start Process :: 23
+1664846035.260749 -- INFO: Start Process :: 24
+1664846035.261046 -- INFO: Active CC: 25
+1664846035.299813 -- INFO: Process 23 get item 16 from queue and executing
+1664846035.300014 -- INFO: Process 24 get item 12 from queue and executing
+1664846035.300210 -- INFO: starting 23, 16, /users/jamilm/files_to_Send/FILE2
+1664846035.300494 -- INFO: starting 24, 12, /users/jamilm/files_to_Send/FILE2
+1664846035.425115 -- INFO: Throughput @61.1s:162.19Mbps, rtt :39.33ms cwnd: 22.4 lossRate: 0.004690706537672237 CC:25 score:-91.0 
+1664846036.428742 -- INFO: Throughput @62.1s:177.83Mbps, rtt :39.4ms cwnd: 24.6 lossRate: 0.0038536862720323457 CC:25 score:-102.0 
+1664846037.429079 -- INFO: Throughput @63.1s:180.87Mbps, rtt :39.59ms cwnd: 24.2 lossRate: 0.004886831275720165 CC:25 score:-101.0 
+1664846038.431087 -- INFO: Throughput @64.1s:175.29Mbps, rtt :39.46ms cwnd: 25.0 lossRate: 0.004769159435649466 CC:25 score:-98.0 
+1664846038.462003 -- INFO: Gradient: -2.1666666666666643, Gredient Change: 0.02256944444444442, Theta: 1, Previous CC: 24, Choosen CC: 25
+1664846038.462141 -- INFO: Changing concurrency to 24 ******
+1664846038.462695 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1664846038.463224 -- INFO: Active CC: 24
+1664846039.431082 -- INFO: Throughput @65.1s:170.97Mbps, rtt :39.31ms cwnd: 24.1 lossRate: 0.005029137063941885 CC:24 score:-98.0 
+1664846040.432984 -- INFO: Throughput @66.1s:164.03Mbps, rtt :39.11ms cwnd: 21.9 lossRate: 0.005820068718883669 CC:24 score:-92.0 
+1664846041.435699 -- INFO: Throughput @67.1s:148.94Mbps, rtt :39.39ms cwnd: 22.1 lossRate: 0.0055389221556886225 CC:24 score:-84.0 
+1664846041.663992 -- INFO: Changing concurrency to 26 ******
+1664846041.664582 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+1664846041.664732 -- INFO: Start Process :: 24
+1664846041.664889 -- INFO: Start Process :: 25
+1664846041.665111 -- INFO: Active CC: 26
+1664846041.704118 -- INFO: Process 24 get item 11 from queue and executing
+1664846041.704257 -- INFO: Process 25 get item 18 from queue and executing
+1664846041.704348 -- INFO: starting 24, 11, /users/jamilm/files_to_Send/FILE3
+1664846041.704596 -- INFO: starting 25, 18, /users/jamilm/files_to_Send/FILE0
+1664846042.435697 -- INFO: Throughput @68.1s:158.57Mbps, rtt :39.66ms cwnd: 20.1 lossRate: 0.007469654528478058 CC:26 score:-83.0 
+1664846043.434289 -- INFO: Throughput @69.1s:155.97Mbps, rtt :39.69ms cwnd: 22.2 lossRate: 0.005151175811870101 CC:26 score:-85.0 
+1664846044.435462 -- INFO: Throughput @70.1s:171.82Mbps, rtt :39.47ms cwnd: 22.8 lossRate: 0.005265613543957875 CC:26 score:-94.0 
+1664846044.865985 -- INFO: Gradient: 2.0, Gredient Change: 0.021897810218978103, Theta: -1, Previous CC: 25, Choosen CC: 24
+1664846044.866132 -- INFO: Changing concurrency to 23 ******
+1664846044.866601 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1664846044.866959 -- INFO: Active CC: 23
+1664846045.437055 -- INFO: Throughput @71.1s:166.62Mbps, rtt :39.65ms cwnd: 25.5 lossRate: 0.0014108794481893713 CC:23 score:-103.0 
+1664846046.438550 -- INFO: Throughput @72.1s:168.22Mbps, rtt :39.57ms cwnd: 23.1 lossRate: 0.00562607204116638 CC:23 score:-97.0 
+1664846047.440040 -- INFO: Throughput @73.1s:161.12Mbps, rtt :39.41ms cwnd: 23.0 lossRate: 0.004963865975618658 CC:23 score:-94.0 
+1664846048.067919 -- INFO: Changing concurrency to 25 ******
+1664846048.068647 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1664846048.068734 -- INFO: Start Process :: 24
+1664846048.068885 -- INFO: Start Process :: 23
+1664846048.069335 -- INFO: Active CC: 25
+1664846048.107950 -- INFO: Process 24 get item 19 from queue and executing
+1664846048.108090 -- INFO: Process 23 get item 15 from queue and executing
+1664846048.108232 -- INFO: starting 24, 19, /users/jamilm/files_to_Send/FILE3
+1664846048.108354 -- INFO: starting 23, 15, /users/jamilm/files_to_Send/FILE3
+1664846048.441556 -- INFO: Throughput @74.1s:162.26Mbps, rtt :39.1ms cwnd: 25.6 lossRate: 0.0036498863714620206 CC:25 score:-93.0 
+1664846049.442623 -- INFO: Throughput @75.1s:184.02Mbps, rtt :39.43ms cwnd: 23.5 lossRate: 0.005623787976729153 CC:25 score:-102.0 
+1664846050.443905 -- INFO: Throughput @76.1s:181.04Mbps, rtt :39.15ms cwnd: 23.2 lossRate: 0.004573563514558104 CC:25 score:-102.0 
+1664846051.270162 -- INFO: Gradient: -0.5, Gredient Change: 0.00510204081632653, Theta: 1, Previous CC: 24, Choosen CC: 25
+1664846051.270308 -- INFO: Changing concurrency to 24 ******
+1664846051.270916 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1664846051.271441 -- INFO: Active CC: 24
+1664846051.443915 -- INFO: Throughput @77.1s:161.05Mbps, rtt :39.37ms cwnd: 21.4 lossRate: 0.00622852233676976 CC:24 score:-90.0 
+1664846052.445612 -- INFO: Throughput @78.1s:146.96Mbps, rtt :39.48ms cwnd: 21.8 lossRate: 0.005184125849124061 CC:24 score:-84.0 
+1664846053.445473 -- INFO: Throughput @79.1s:156.64Mbps, rtt :39.5ms cwnd: 21.9 lossRate: 0.005251479289940828 CC:24 score:-89.0 
+1664846054.444557 -- INFO: Throughput @80.1s:159.67Mbps, rtt :39.55ms cwnd: 23.0 lossRate: 0.005131637661758144 CC:24 score:-91.0 
+1664846054.472215 -- INFO: Changing concurrency to 26 ******
+1664846054.472787 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+1664846054.473023 -- INFO: Start Process :: 25
+1664846054.473233 -- INFO: Active CC: 26
+1664846054.473311 -- INFO: Start Process :: 24
+1664846054.512278 -- INFO: Process 25 get item 13 from queue and executing
+1664846054.512496 -- INFO: starting 25, 13, /users/jamilm/files_to_Send/FILE1
+1664846054.512614 -- INFO: Process 24 get item 17 from queue and executing
+1664846054.512848 -- INFO: starting 24, 17, /users/jamilm/files_to_Send/FILE1
+1664846055.448364 -- INFO: Throughput @81.1s:168.31Mbps, rtt :39.49ms cwnd: 23.2 lossRate: 0.005122329311855496 CC:26 score:-92.0 
+1664846056.449847 -- INFO: Throughput @82.1s:187.21Mbps, rtt :39.42ms cwnd: 24.1 lossRate: 0.004398089972354863 CC:26 score:-104.0 
+1664846057.450873 -- INFO: Throughput @83.1s:181.62Mbps, rtt :39.5ms cwnd: 23.8 lossRate: 0.004878964158378683 CC:26 score:-100.0 
+1664846057.674084 -- INFO: Gradient: -5.333333333333336, Gredient Change: 0.060606060606060635, Theta: 2, Previous CC: 25, Choosen CC: 26
+1664846057.674235 -- INFO: Changing concurrency to 25 ******
+1664846057.674674 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1664846057.675208 -- INFO: Active CC: 25
+1664846058.452193 -- INFO: Throughput @84.1s:171.9Mbps, rtt :39.68ms cwnd: 21.6 lossRate: 0.007425283088917765 CC:25 score:-92.0 
+1664846059.451057 -- INFO: Throughput @85.1s:151.78Mbps, rtt :39.44ms cwnd: 23.6 lossRate: 0.004876628575587743 CC:25 score:-85.0 
+1664846060.455004 -- INFO: Throughput @86.1s:170.83Mbps, rtt :39.33ms cwnd: 22.5 lossRate: 0.005314437555358724 CC:25 score:-95.0 
+1664846060.876122 -- INFO: Changing concurrency to 27 ******
+1664846060.876777 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1664846060.877089 -- INFO: Start Process :: 25
+1664846060.877286 -- INFO: Active CC: 27
+1664846060.879846 -- INFO: Start Process :: 26
+1664846060.916403 -- INFO: Process 25 get item 29 from queue and executing
+1664846060.916662 -- INFO: starting 25, 29, /users/jamilm/files_to_Send/FILE1
+1664846060.920151 -- INFO: Process 26 get item 12 from queue and executing
+1664846060.920456 -- INFO: starting 26, 12, /users/jamilm/files_to_Send/FILE2
+1664846061.455960 -- INFO: Throughput @87.1s:170.3Mbps, rtt :39.35ms cwnd: 21.4 lossRate: 0.005707605556319626 CC:27 score:-90.0 
+1664846062.457297 -- INFO: Throughput @88.1s:171.39Mbps, rtt :39.35ms cwnd: 21.8 lossRate: 0.006283359232484292 CC:27 score:-90.0 
+1664846063.458355 -- INFO: Throughput @89.1s:173.68Mbps, rtt :39.49ms cwnd: 23.0 lossRate: 0.005507791509940892 CC:27 score:-92.0 
+1664846064.078401 -- INFO: Gradient: 0.0, Gredient Change: 0.0, Theta: 3, Previous CC: 26, Choosen CC: 26
+1664846064.078562 -- INFO: Changing concurrency to 25 ******
+1664846064.078940 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1664846064.079336 -- INFO: Active CC: 25
+1664846064.459341 -- INFO: Throughput @90.1s:181.56Mbps, rtt :39.5ms cwnd: 25.1 lossRate: 0.004441680731988985 CC:25 score:-103.0 
+1664846065.459859 -- INFO: Throughput @91.1s:179.13Mbps, rtt :39.39ms cwnd: 23.2 lossRate: 0.005290659699542783 CC:25 score:-100.0 
+1664846066.460638 -- INFO: Throughput @92.1s:173.12Mbps, rtt :39.22ms cwnd: 22.8 lossRate: 0.005097649784839457 CC:25 score:-97.0 
+1664846067.280305 -- INFO: Changing concurrency to 27 ******
+1664846067.280806 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1664846067.281145 -- INFO: Start Process :: 25
+1664846067.281259 -- INFO: Active CC: 27
+1664846067.281223 -- INFO: Start Process :: 26
+1664846067.320520 -- INFO: Process 25 get item 11 from queue and executing
+1664846067.320633 -- INFO: Process 26 get item 16 from queue and executing
+1664846067.320800 -- INFO: starting 25, 11, /users/jamilm/files_to_Send/FILE3
+1664846067.321053 -- INFO: starting 26, 16, /users/jamilm/files_to_Send/FILE2
+1664846067.458916 -- INFO: Throughput @93.1s:175.23Mbps, rtt :39.15ms cwnd: 22.8 lossRate: 0.00546256740668114 CC:27 score:-93.0 
+1664846068.463262 -- INFO: Throughput @94.1s:186.95Mbps, rtt :39.01ms cwnd: 24.9 lossRate: 0.003953989935298346 CC:27 score:-102.0 
+1664846069.464588 -- INFO: Throughput @95.1s:192.1Mbps, rtt :39.41ms cwnd: 23.3 lossRate: 0.005329780146568954 CC:27 score:-102.0 
+1664846070.465986 -- INFO: Throughput @96.1s:185.9Mbps, rtt :39.34ms cwnd: 23.8 lossRate: 0.005413667919240812 CC:27 score:-99.0 
+1664846070.482558 -- INFO: Gradient: -0.5, Gredient Change: 0.005, Theta: 4, Previous CC: 26, Choosen CC: 26
+1664846070.482843 -- INFO: Changing concurrency to 25 ******
+1664846070.483282 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1664846070.483654 -- INFO: Active CC: 25
+1664846071.466281 -- INFO: Throughput @97.1s:176.94Mbps, rtt :39.06ms cwnd: 23.6 lossRate: 0.004761904761904762 CC:25 score:-99.0 
+1664846072.467731 -- INFO: Throughput @98.2s:165.01Mbps, rtt :39.84ms cwnd: 23.9 lossRate: 0.004875828890911455 CC:25 score:-93.0 
+1664846073.467627 -- INFO: Throughput @99.2s:164.93Mbps, rtt :39.49ms cwnd: 23.0 lossRate: 0.005444769618185531 CC:25 score:-92.0 
+1664846073.684376 -- INFO: Changing concurrency to 27 ******
+1664846073.684973 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1664846073.685295 -- INFO: Start Process :: 25
+1664846073.685416 -- INFO: Active CC: 27
+1664846073.685377 -- INFO: Start Process :: 26
+1664846073.724618 -- INFO: Process 26 get item 18 from queue and executing
+1664846073.724748 -- INFO: Process 25 get item 19 from queue and executing
+1664846073.724858 -- INFO: starting 26, 18, /users/jamilm/files_to_Send/FILE0
+1664846073.724951 -- INFO: starting 25, 19, /users/jamilm/files_to_Send/FILE3
+1664846074.467554 -- INFO: Throughput @100.2s:180.25Mbps, rtt :39.44ms cwnd: 25.0 lossRate: 0.004030988221956289 CC:27 score:-98.0 
+1664846075.470645 -- INFO: Throughput @101.2s:213.75Mbps, rtt :39.42ms cwnd: 25.2 lossRate: 0.005092592592592593 CC:27 score:-114.0 
+1664846076.472442 -- INFO: Throughput @102.2s:187.78Mbps, rtt :39.32ms cwnd: 22.8 lossRate: 0.005091344713986224 CC:27 score:-100.0 
+1664846076.886044 -- INFO: Gradient: -4.666666666666664, Gredient Change: 0.0492957746478873, Theta: 5, Previous CC: 26, Choosen CC: 31
+1664846076.886158 -- INFO: Changing concurrency to 30 ******
+1664846076.886544 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1664846076.886804 -- INFO: Active CC: 30
+1664846076.889376 -- INFO: Start Process :: 28
+1664846076.889626 -- INFO: Start Process :: 29
+1664846076.890160 -- INFO: Start Process :: 27
+1664846076.928964 -- INFO: Process 28 get item 13 from queue and executing
+1664846076.929319 -- INFO: starting 28, 13, /users/jamilm/files_to_Send/FILE1
+1664846076.929301 -- INFO: Process 29 get item 29 from queue and executing
+1664846076.929672 -- INFO: starting 29, 29, /users/jamilm/files_to_Send/FILE1
+1664846076.929821 -- INFO: Process 27 get item 12 from queue and executing
+1664846076.930225 -- INFO: starting 27, 12, /users/jamilm/files_to_Send/FILE2
+1664846077.473118 -- INFO: Throughput @103.2s:194.83Mbps, rtt :39.36ms cwnd: 23.3 lossRate: 0.004352492248986406 CC:30 score:-99.0 
+1664846078.473979 -- INFO: Throughput @104.2s:212.12Mbps, rtt :39.33ms cwnd: 23.6 lossRate: 0.004860535763601215 CC:30 score:-107.0 
+1664846079.475340 -- INFO: Throughput @105.2s:212.47Mbps, rtt :39.32ms cwnd: 23.1 lossRate: 0.005367716230424437 CC:30 score:-106.0 
+1664846080.088534 -- INFO: Changing concurrency to 32 ******
+1664846080.088962 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1664846080.089162 -- INFO: Active CC: 32
+1664846080.094573 -- INFO: Start Process :: 31
+1664846080.094632 -- INFO: Start Process :: 30
+1664846080.134264 -- INFO: Process 31 get item 11 from queue and executing
+1664846080.134432 -- INFO: Process 30 get item 16 from queue and executing
+1664846080.134610 -- INFO: starting 31, 11, /users/jamilm/files_to_Send/FILE3
+1664846080.134722 -- INFO: starting 30, 16, /users/jamilm/files_to_Send/FILE2
+1664846080.476079 -- INFO: Throughput @106.2s:203.24Mbps, rtt :39.39ms cwnd: 22.5 lossRate: 0.005085895117540687 CC:32 score:-98.0 
+1664846081.476788 -- INFO: Throughput @107.2s:222.32Mbps, rtt :39.21ms cwnd: 23.3 lossRate: 0.0051191809310510315 CC:32 score:-107.0 
+1664846082.477979 -- INFO: Throughput @108.2s:223.11Mbps, rtt :39.45ms cwnd: 24.9 lossRate: 0.004148102627131664 CC:32 score:-109.0 
+1664846083.290716 -- INFO: Gradient: -0.3333333333333357, Gredient Change: 0.003205128205128228, Theta: 6, Previous CC: 31, Choosen CC: 31
+1664846083.290971 -- INFO: Changing concurrency to 30 ******
+1664846083.291137 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1664846083.291310 -- INFO: Active CC: 30
+1664846083.479358 -- INFO: Throughput @109.2s:226.58Mbps, rtt :39.33ms cwnd: 23.6 lossRate: 0.0054835238046430585 CC:30 score:-113.0 
+1664846084.480539 -- INFO: Throughput @110.2s:223.47Mbps, rtt :39.4ms cwnd: 23.5 lossRate: 0.005399340859687259 CC:30 score:-111.0 
+1664846085.480751 -- INFO: Throughput @111.2s:208.26Mbps, rtt :39.38ms cwnd: 24.5 lossRate: 0.00404061885267691 CC:30 score:-107.0 
+1664846086.481843 -- INFO: Throughput @112.2s:202.18Mbps, rtt :39.32ms cwnd: 22.4 lossRate: 0.005812969129183362 CC:30 score:-100.0 
+1664846086.492314 -- INFO: Changing concurrency to 32 ******
+1664846086.492678 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1664846086.492869 -- INFO: Active CC: 32
+1664846086.492995 -- INFO: Start Process :: 31
+1664846086.493131 -- INFO: Start Process :: 30
+1664846086.532296 -- INFO: Process 31 get item 16 from queue and executing
+1664846086.532403 -- INFO: Process 30 get item 11 from queue and executing
+1664846086.532653 -- INFO: starting 31, 16, /users/jamilm/files_to_Send/FILE2
+1664846086.532701 -- INFO: starting 30, 11, /users/jamilm/files_to_Send/FILE3
+1664846087.482606 -- INFO: Throughput @113.2s:219.44Mbps, rtt :39.62ms cwnd: 23.5 lossRate: 0.004092402132356901 CC:32 score:-107.0 
+1664846088.483665 -- INFO: Throughput @114.2s:225.51Mbps, rtt :39.47ms cwnd: 21.9 lossRate: 0.005450581395348837 CC:32 score:-107.0 
+1664846089.484659 -- INFO: Throughput @115.2s:209.16Mbps, rtt :39.54ms cwnd: 24.0 lossRate: 0.004160052548032186 CC:32 score:-102.0 
+1664846089.694495 -- INFO: Gradient: 0.3333333333333357, Gredient Change: 0.0031446540880503368, Theta: -1, Previous CC: 31, Choosen CC: 30
+1664846089.694737 -- INFO: Changing concurrency to 29 ******
+1664846089.694907 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1664846089.695079 -- INFO: Active CC: 29
+1664846090.486516 -- INFO: Throughput @116.2s:214.37Mbps, rtt :39.25ms cwnd: 24.2 lossRate: 0.0042643923240938165 CC:29 score:-112.0 
+1664846091.487530 -- INFO: Throughput @117.2s:210.49Mbps, rtt :39.58ms cwnd: 24.4 lossRate: 0.0040412787760698565 CC:29 score:-110.0 
+1664846092.488907 -- INFO: Throughput @118.2s:199.75Mbps, rtt :39.41ms cwnd: 22.8 lossRate: 0.005636395007764422 CC:29 score:-101.0 
+1664846092.896395 -- INFO: Changing concurrency to 31 ******
+1664846092.896795 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+1664846092.897064 -- INFO: Start Process :: 30
+1664846092.897140 -- INFO: Active CC: 31
+1664846092.897485 -- INFO: Start Process :: 29
+1664846092.936167 -- INFO: Process 30 get item 29 from queue and executing
+1664846092.936402 -- INFO: starting 30, 29, /users/jamilm/files_to_Send/FILE1
+1664846092.936967 -- INFO: Process 29 get item 16 from queue and executing
+1664846092.937325 -- INFO: starting 29, 16, /users/jamilm/files_to_Send/FILE2
+1664846093.489373 -- INFO: Throughput @119.2s:196.15Mbps, rtt :39.85ms cwnd: 20.8 lossRate: 0.005751897533206831 CC:31 score:-95.0 
+1664846094.490711 -- INFO: Throughput @120.2s:176.46Mbps, rtt :39.85ms cwnd: 20.7 lossRate: 0.006543075245365322 CC:31 score:-84.0 
+1664846095.489322 -- INFO: Throughput @121.2s:213.72Mbps, rtt :39.39ms cwnd: 24.5 lossRate: 0.003965882544684087 CC:31 score:-107.0 
+1664846096.098099 -- INFO: Gradient: 6.166666666666671, Gredient Change: 0.05727554179566568, Theta: -2, Previous CC: 30, Choosen CC: 26
+1664846096.098226 -- INFO: Changing concurrency to 25 ******
+1664846096.098449 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1664846096.098671 -- INFO: Active CC: 25
+1664846096.493036 -- INFO: Throughput @122.2s:202.83Mbps, rtt :39.47ms cwnd: 22.4 lossRate: 0.0056179775280898875 CC:25 score:-112.0 
+1664846097.493484 -- INFO: Throughput @123.2s:165.9Mbps, rtt :39.46ms cwnd: 23.6 lossRate: 0 CC:25 score:-101.0 
+1664846098.494039 -- INFO: Throughput @124.2s:183.81Mbps, rtt :39.32ms cwnd: 22.1 lossRate: 0.004916044180552895 CC:25 score:-103.0 
+1664846099.299571 -- INFO: Changing concurrency to 27 ******
+1664846099.300110 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1664846099.300380 -- INFO: Start Process :: 25
+1664846099.300451 -- INFO: Active CC: 27
+1664846099.300552 -- INFO: Start Process :: 26
+1664846099.339656 -- INFO: Process 25 get item 11 from queue and executing
+1664846099.339782 -- INFO: Process 26 get item 16 from queue and executing
+1664846099.339888 -- INFO: starting 25, 11, /users/jamilm/files_to_Send/FILE3
+1664846099.339958 -- INFO: starting 26, 16, /users/jamilm/files_to_Send/FILE2
+1664846099.494125 -- INFO: Throughput @125.2s:174.71Mbps, rtt :39.16ms cwnd: 23.2 lossRate: 0.004123985632566184 CC:27 score:-95.0 
+1664846100.497258 -- INFO: Throughput @126.2s:176.84Mbps, rtt :39.22ms cwnd: 23.0 lossRate: 0.0054973152646382 CC:27 score:-94.0 
+1664846101.498628 -- INFO: Throughput @127.2s:189.07Mbps, rtt :39.68ms cwnd: 23.4 lossRate: 0.004416125165604694 CC:27 score:-102.0 
+1664846102.498440 -- INFO: Throughput @128.2s:173.79Mbps, rtt :39.48ms cwnd: 21.9 lossRate: 0.006022518984027232 CC:27 score:-91.0 
+1664846102.501369 -- INFO: Gradient: 4.833333333333329, Gredient Change: 0.04588607594936705, Theta: -3, Previous CC: 26, Choosen CC: 20
+1664846102.501511 -- INFO: Changing concurrency to 19 ******
+1664846102.501894 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846102.502245 -- INFO: Active CC: 19
+1664846103.501006 -- INFO: Throughput @129.2s:147.15Mbps, rtt :39.28ms cwnd: 25.6 lossRate: 0 CC:19 score:-101.0 
+1664846104.499507 -- INFO: Throughput @130.2s:141.6Mbps, rtt :39.46ms cwnd: 25.3 lossRate: 0 CC:19 score:-97.0 
+1664846105.502078 -- INFO: Throughput @131.2s:134.44Mbps, rtt :39.25ms cwnd: 21.9 lossRate: 0.005567928730512249 CC:19 score:-85.0 
+1664846105.703126 -- INFO: Changing concurrency to 21 ******
+1664846105.704654 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1664846105.704419 -- INFO: Start Process :: 20
+1664846105.704769 -- INFO: Start Process :: 19
+1664846105.705903 -- INFO: Active CC: 21
+1664846105.743900 -- INFO: Process 20 get item 19 from queue and executing
+1664846105.744343 -- INFO: starting 20, 19, /users/jamilm/files_to_Send/FILE3
+1664846105.744674 -- INFO: Process 19 get item 29 from queue and executing
+1664846105.745258 -- INFO: starting 19, 29, /users/jamilm/files_to_Send/FILE1
+1664846106.501035 -- INFO: Throughput @132.2s:129.45Mbps, rtt :39.82ms cwnd: 21.7 lossRate: 0.005477163015224657 CC:21 score:-78.0 
+1664846107.503945 -- INFO: Throughput @133.2s:129.02Mbps, rtt :39.79ms cwnd: 21.3 lossRate: 0.0060768543342269886 CC:21 score:-77.0 
+1664846108.504210 -- INFO: Throughput @134.2s:140.48Mbps, rtt :39.4ms cwnd: 26.2 lossRate: 0.0030315117670522535 CC:21 score:-88.0 
+1664846108.906711 -- INFO: Gradient: 6.666666666666664, Gredient Change: 0.07067137809187277, Theta: -4, Previous CC: 20, Choosen CC: 12
+1664846108.906816 -- INFO: Changing concurrency to 11 ******
+1664846108.907722 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846108.908935 -- INFO: Active CC: 11
+1664846109.509269 -- INFO: Throughput @135.2s:135.13Mbps, rtt :39.5ms cwnd: 25.5 lossRate: 0 CC:11 score:-109.0 
+1664846110.508912 -- INFO: Throughput @136.2s:82.28Mbps, rtt :39.26ms cwnd: 22.4 lossRate: 0 CC:11 score:-66.0 
+1664846111.511212 -- INFO: Throughput @137.2s:79.6Mbps, rtt :39.47ms cwnd: 27.1 lossRate: 0.0028830906732016724 CC:11 score:-62.0 
+1664846112.109926 -- INFO: Changing concurrency to 13 ******
+1664846112.112004 -- INFO: Start Process :: 11
+1664846112.112147 -- INFO: Start Process :: 12
+1664846112.113804 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846112.117788 -- INFO: Active CC: 13
+1664846112.151461 -- INFO: Process 11 get item 12 from queue and executing
+1664846112.151559 -- INFO: Process 12 get item 13 from queue and executing
+1664846112.151947 -- INFO: starting 11, 12, /users/jamilm/files_to_Send/FILE2
+1664846112.152141 -- INFO: starting 12, 13, /users/jamilm/files_to_Send/FILE1
+1664846112.508734 -- INFO: Throughput @138.2s:85.74Mbps, rtt :39.98ms cwnd: 23.4 lossRate: 0.005087309225904029 CC:13 score:-62.0 
+1664846113.511744 -- INFO: Throughput @139.2s:91.81Mbps, rtt :39.46ms cwnd: 25.8 lossRate: 0.004155463211928624 CC:13 score:-67.0 
+1664846114.513154 -- INFO: Throughput @140.2s:91.84Mbps, rtt :39.8ms cwnd: 21.2 lossRate: 0.005907062221055395 CC:13 score:-66.0 
+1664846115.318794 -- INFO: Gradient: 7.0, Gredient Change: 0.08860759493670886, Theta: -5, Previous CC: 12, Choosen CC: 2
+1664846115.318913 -- INFO: Changing concurrency to 1 ******
+1664846115.322056 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846115.326164 -- INFO: Active CC: 1
+1664846115.514557 -- INFO: Throughput @141.2s:84.81Mbps, rtt :39.21ms cwnd: 22.3 lossRate: 0.0049571275455519825 CC:1 score:-79.0 
+1664846116.516377 -- INFO: Throughput @142.2s:18.77Mbps, rtt :39.89ms cwnd: 20.2 lossRate: 0 CC:1 score:-18.0 
+1664846117.516454 -- INFO: Throughput @143.2s:7.82Mbps, rtt :39.42ms cwnd: 27.5 lossRate: 0 CC:1 score:-8.0 
+1664846118.517768 -- INFO: Throughput @144.2s:8.34Mbps, rtt :38.53ms cwnd: 37.0 lossRate: 0 CC:1 score:-8.0 
+1664846118.527080 -- INFO: Changing concurrency to 3 ******
+1664846118.528326 -- INFO: Start Process :: 1
+1664846118.528432 -- INFO: Start Process :: 2
+1664846118.532195 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846118.540124 -- INFO: Active CC: 3
+1664846118.567909 -- INFO: Process 1 get item 18 from queue and executing
+1664846118.568075 -- INFO: Process 2 get item 11 from queue and executing
+1664846118.569067 -- INFO: starting 2, 11, /users/jamilm/files_to_Send/FILE3
+1664846118.569195 -- INFO: starting 1, 18, /users/jamilm/files_to_Send/FILE0
+1664846119.519611 -- INFO: Throughput @145.2s:24.12Mbps, rtt :38.58ms cwnd: 24.3 lossRate: 0.004437049362174155 CC:3 score:-22.0 
+1664846120.519540 -- INFO: Throughput @146.2s:25.02Mbps, rtt :38.91ms cwnd: 30.0 lossRate: 0.0019102196752626551 CC:3 score:-23.0 
+1664846121.522105 -- INFO: Throughput @147.2s:24.5Mbps, rtt :38.91ms cwnd: 28.0 lossRate: 0.0035288928098809 CC:3 score:-22.0 
+1664846121.741060 -- INFO: Gradient: -5.499999999999999, Gredient Change: 0.4852941176470587, Theta: 1, Previous CC: 2, Choosen CC: 3
+1664846121.741158 -- INFO: Changing concurrency to 2 ******
+1664846121.747568 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846121.753423 -- INFO: Active CC: 2
+1664846122.522036 -- INFO: Throughput @148.2s:19.29Mbps, rtt :40.12ms cwnd: 20.0 lossRate: 0 CC:2 score:-19.0 
+1664846123.522380 -- INFO: Throughput @149.2s:12.82Mbps, rtt :38.95ms cwnd: 28.5 lossRate: 0.0017079419299743809 CC:2 score:-12.0 
+1664846124.522674 -- INFO: Throughput @150.2s:16.78Mbps, rtt :39.19ms cwnd: 25.5 lossRate: 0.004098360655737705 CC:2 score:-15.0 
+1664846124.954304 -- INFO: Changing concurrency to 4 ******
+1664846124.956009 -- INFO: Start Process :: 3
+1664846124.956608 -- INFO: Start Process :: 2
+1664846124.960118 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846124.966962 -- INFO: Active CC: 4
+1664846124.995344 -- INFO: Process 3 get item 16 from queue and executing
+1664846124.995898 -- INFO: Process 2 get item 30 from queue and executing
+1664846124.995951 -- INFO: starting 3, 16, /users/jamilm/files_to_Send/FILE2
+1664846124.996525 -- INFO: starting 2, 30, /users/jamilm/files_to_Send/FILE0
+1664846125.523085 -- INFO: Throughput @151.2s:24.08Mbps, rtt :39.44ms cwnd: 23.2 lossRate: 0.006644518272425249 CC:4 score:-21.0 
+1664846126.524243 -- INFO: Throughput @152.2s:23.68Mbps, rtt :39.18ms cwnd: 17.8 lossRate: 0.008881922675026124 CC:4 score:-20.0 
+1664846127.528122 -- INFO: Throughput @153.2s:23.98Mbps, rtt :39.0ms cwnd: 25.5 lossRate: 0.002827521206409048 CC:4 score:-21.0 
+1664846128.167913 -- INFO: Gradient: -2.666666666666667, Gredient Change: 0.1739130434782609, Theta: 2, Previous CC: 3, Choosen CC: 5
+1664846128.168013 -- INFO: Changing concurrency to 4 ******
+1664846128.172955 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846128.179929 -- INFO: Active CC: 4
+1664846128.527692 -- INFO: Throughput @154.2s:27.63Mbps, rtt :38.96ms cwnd: 21.2 lossRate: 0.006647278770253427 CC:4 score:-24.0 
+1664846129.527034 -- INFO: Throughput @155.2s:23.98Mbps, rtt :39.81ms cwnd: 21.8 lossRate: 0.0053842388644150755 CC:4 score:-21.0 
+1664846130.527770 -- INFO: Throughput @156.2s:27.11Mbps, rtt :39.35ms cwnd: 25.8 lossRate: 0.003386960203217612 CC:4 score:-24.0 
+1664846131.380800 -- INFO: Changing concurrency to 6 ******
+1664846131.382814 -- INFO: Start Process :: 5
+1664846131.382890 -- INFO: Start Process :: 4
+1664846131.386815 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846131.392153 -- INFO: Active CC: 6
+1664846131.422406 -- INFO: Process 4 get item 10 from queue and executing
+1664846131.422582 -- INFO: Process 5 get item 28 from queue and executing
+1664846131.422801 -- INFO: starting 4, 10, /users/jamilm/files_to_Send/FILE0
+1664846131.423106 -- INFO: starting 5, 28, /users/jamilm/files_to_Send/FILE2
+1664846131.531399 -- INFO: Throughput @157.2s:34.01Mbps, rtt :38.99ms cwnd: 21.7 lossRate: 0.005867253392005867 CC:6 score:-28.0 
+1664846132.532376 -- INFO: Throughput @158.2s:41.14Mbps, rtt :40.44ms cwnd: 24.7 lossRate: 0.004821327283040272 CC:6 score:-35.0 
+1664846133.531421 -- INFO: Throughput @159.2s:40.65Mbps, rtt :39.45ms cwnd: 24.2 lossRate: 0.005778676683039584 CC:6 score:-34.0 
+1664846134.530774 -- INFO: Throughput @160.2s:42.78Mbps, rtt :39.2ms cwnd: 23.0 lossRate: 0.004271222637479978 CC:6 score:-36.0 
+1664846134.593191 -- INFO: Gradient: -6.0, Gredient Change: 0.2608695652173913, Theta: 3, Previous CC: 5, Choosen CC: 11
+1664846134.593314 -- INFO: Changing concurrency to 10 ******
+1664846134.596051 -- INFO: Start Process :: 8
+1664846134.596578 -- INFO: Start Process :: 6
+1664846134.596702 -- INFO: Start Process :: 7
+1664846134.598973 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846134.598829 -- INFO: Start Process :: 9
+1664846134.603597 -- INFO: Active CC: 10
+1664846134.635870 -- INFO: Process 8 get item 31 from queue and executing
+1664846134.636479 -- INFO: starting 8, 31, /users/jamilm/files_to_Send/FILE3
+1664846134.637105 -- INFO: Process 7 get item 15 from queue and executing
+1664846134.637202 -- INFO: Process 6 get item 17 from queue and executing
+1664846134.637768 -- INFO: starting 7, 15, /users/jamilm/files_to_Send/FILE3
+1664846134.638343 -- INFO: starting 6, 17, /users/jamilm/files_to_Send/FILE1
+1664846134.639160 -- INFO: Process 9 get item 23 from queue and executing
+1664846134.640014 -- INFO: starting 9, 23, /users/jamilm/files_to_Send/FILE3
+1664846135.536893 -- INFO: Throughput @161.2s:69.1Mbps, rtt :39.52ms cwnd: 25.8 lossRate: 0.004454739843193158 CC:10 score:-54.0 
+1664846136.535718 -- INFO: Throughput @162.2s:76.61Mbps, rtt :39.66ms cwnd: 20.9 lossRate: 0.008330663248958666 CC:10 score:-56.0 
+1664846137.536570 -- INFO: Throughput @163.2s:56.94Mbps, rtt :39.76ms cwnd: 20.5 lossRate: 0.00683142455294354 CC:10 score:-43.0 
+1664846137.806533 -- INFO: Changing concurrency to 12 ******
+1664846137.809453 -- INFO: Start Process :: 10
+1664846137.809587 -- INFO: Start Process :: 11
+1664846137.809955 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846137.814569 -- INFO: Active CC: 12
+1664846137.849302 -- INFO: Process 11 get item 22 from queue and executing
+1664846137.849460 -- INFO: Process 10 get item 21 from queue and executing
+1664846137.849757 -- INFO: starting 11, 22, /users/jamilm/files_to_Send/FILE0
+1664846137.850076 -- INFO: starting 10, 21, /users/jamilm/files_to_Send/FILE1
+1664846138.535073 -- INFO: Throughput @164.2s:74.92Mbps, rtt :39.72ms cwnd: 23.5 lossRate: 0.005556463474423926 CC:12 score:-55.0 
+1664846139.537329 -- INFO: Throughput @165.2s:100.1Mbps, rtt :39.36ms cwnd: 27.1 lossRate: 0.003412137460394833 CC:12 score:-76.0 
+1664846140.539289 -- INFO: Throughput @166.2s:91.6Mbps, rtt :38.95ms cwnd: 23.8 lossRate: 0.004946821667078902 CC:12 score:-68.0 
+1664846141.015707 -- INFO: Gradient: -7.666666666666664, Gredient Change: 0.15032679738562088, Theta: 4, Previous CC: 11, Choosen CC: 19
+1664846141.015852 -- INFO: Changing concurrency to 18 ******
+1664846141.017373 -- INFO: Start Process :: 14
+1664846141.017827 -- INFO: Start Process :: 15
+1664846141.018364 -- INFO: Start Process :: 13
+1664846141.018836 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846141.018756 -- INFO: Start Process :: 16
+1664846141.018919 -- INFO: Start Process :: 17
+1664846141.019685 -- INFO: Start Process :: 12
+1664846141.022288 -- INFO: Active CC: 18
+1664846141.056700 -- INFO: Process 14 get item 19 from queue and executing
+1664846141.057222 -- INFO: starting 14, 19, /users/jamilm/files_to_Send/FILE3
+1664846141.057278 -- INFO: Process 15 get item 29 from queue and executing
+1664846141.057696 -- INFO: starting 15, 29, /users/jamilm/files_to_Send/FILE1
+1664846141.058431 -- INFO: Process 13 get item 27 from queue and executing
+1664846141.058617 -- INFO: Process 16 get item 20 from queue and executing
+1664846141.058929 -- INFO: starting 13, 27, /users/jamilm/files_to_Send/FILE3
+1664846141.059020 -- INFO: Process 17 get item 25 from queue and executing
+1664846141.059139 -- INFO: starting 16, 20, /users/jamilm/files_to_Send/FILE2
+1664846141.059552 -- INFO: starting 17, 25, /users/jamilm/files_to_Send/FILE1
+1664846141.060369 -- INFO: Process 12 get item 26 from queue and executing
+1664846141.061054 -- INFO: starting 12, 26, /users/jamilm/files_to_Send/FILE0
+1664846141.537524 -- INFO: Throughput @167.2s:116.51Mbps, rtt :38.95ms cwnd: 27.3 lossRate: 0.0028574452322997143 CC:18 score:-78.0 
+1664846142.539523 -- INFO: Throughput @168.2s:166.81Mbps, rtt :39.49ms cwnd: 28.1 lossRate: 0.0040776986951364174 CC:18 score:-110.0 
+1664846143.538065 -- INFO: Throughput @169.2s:132.22Mbps, rtt :39.54ms cwnd: 24.9 lossRate: 0.005384411686821432 CC:18 score:-85.0 
+1664846144.223310 -- INFO: Changing concurrency to 20 ******
+1664846144.224607 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1664846144.225589 -- INFO: Start Process :: 18
+1664846144.226189 -- INFO: Active CC: 20
+1664846144.225970 -- INFO: Start Process :: 19
+1664846144.265514 -- INFO: Process 18 get item 24 from queue and executing
+1664846144.265897 -- INFO: Process 19 get item 14 from queue and executing
+1664846144.266164 -- INFO: starting 18, 24, /users/jamilm/files_to_Send/FILE2
+1664846144.266399 -- INFO: starting 19, 14, /users/jamilm/files_to_Send/FILE0
+1664846144.540224 -- INFO: Throughput @170.2s:129.39Mbps, rtt :39.35ms cwnd: 21.4 lossRate: 0.006402741455496438 CC:20 score:-79.0 
+1664846145.540561 -- INFO: Throughput @171.2s:138.49Mbps, rtt :39.24ms cwnd: 23.0 lossRate: 0.005075705437026841 CC:20 score:-86.0 
+1664846146.542176 -- INFO: Throughput @172.2s:126.99Mbps, rtt :39.76ms cwnd: 22.2 lossRate: 0.006243213897937025 CC:20 score:-78.0 
+1664846147.427031 -- INFO: Gradient: 5.0, Gredient Change: 0.054945054945054944, Theta: -1, Previous CC: 19, Choosen CC: 17
+1664846147.427188 -- INFO: Changing concurrency to 16 ******
+1664846147.428028 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846147.428963 -- INFO: Active CC: 16
+1664846147.542606 -- INFO: Throughput @173.2s:126.05Mbps, rtt :39.86ms cwnd: 23.2 lossRate: 0.004091225626740947 CC:16 score:-87.0 
+1664846148.545890 -- INFO: Throughput @174.2s:103.43Mbps, rtt :39.78ms cwnd: 22.0 lossRate: 0 CC:16 score:-75.0 
+1664846149.547360 -- INFO: Throughput @175.2s:115.57Mbps, rtt :39.1ms cwnd: 27.6 lossRate: 0.0026666666666666666 CC:16 score:-81.0 
+1664846150.547028 -- INFO: Throughput @176.2s:113.45Mbps, rtt :39.31ms cwnd: 22.5 lossRate: 0.005792469789273944 CC:16 score:-76.0 
+1664846150.629891 -- INFO: Changing concurrency to 18 ******
+1664846150.631195 -- INFO: Start Process :: 16
+1664846150.631888 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846150.632176 -- INFO: Start Process :: 17
+1664846150.633943 -- INFO: Active CC: 18
+1664846150.670619 -- INFO: Process 16 get item 1 from queue and executing
+1664846150.671065 -- INFO: starting 16, 1, /users/jamilm/files_to_Send/FILE1
+1664846150.671688 -- INFO: Process 17 get item 4 from queue and executing
+1664846150.672105 -- INFO: starting 17, 4, /users/jamilm/files_to_Send/FILE2
+1664846151.545703 -- INFO: Throughput @177.2s:115.81Mbps, rtt :39.86ms cwnd: 21.4 lossRate: 0.0061909758656873036 CC:18 score:-74.0 
+1664846152.548189 -- INFO: Throughput @178.2s:116.28Mbps, rtt :39.65ms cwnd: 22.7 lossRate: 0.0048039969254419675 CC:18 score:-76.0 
+1664846153.550120 -- INFO: Throughput @179.2s:130.18Mbps, rtt :39.63ms cwnd: 23.6 lossRate: 0.0045128016209246636 CC:18 score:-85.0 
+1664846153.834932 -- INFO: Gradient: -0.5, Gredient Change: 0.006465517241379311, Theta: 1, Previous CC: 17, Choosen CC: 18
+1664846153.835077 -- INFO: Changing concurrency to 17 ******
+1664846153.836721 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846153.838349 -- INFO: Active CC: 17
+1664846154.551854 -- INFO: Throughput @180.2s:113.66Mbps, rtt :39.37ms cwnd: 23.5 lossRate: 0.004507042253521127 CC:17 score:-76.0 
+1664846155.551835 -- INFO: Throughput @181.2s:122.7Mbps, rtt :39.45ms cwnd: 23.9 lossRate: 0.004593432369038311 CC:17 score:-82.0 
+1664846156.553204 -- INFO: Throughput @182.2s:131.24Mbps, rtt :39.38ms cwnd: 26.9 lossRate: 0.0030469226081657527 CC:17 score:-90.0 
+1664846157.039254 -- INFO: Changing concurrency to 19 ******
+1664846157.040507 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846157.040617 -- INFO: Start Process :: 18
+1664846157.040755 -- INFO: Start Process :: 17
+1664846157.041971 -- INFO: Active CC: 19
+1664846157.080227 -- INFO: Process 18 get item 9 from queue and executing
+1664846157.080375 -- INFO: Process 17 get item 3 from queue and executing
+1664846157.080667 -- INFO: starting 18, 9, /users/jamilm/files_to_Send/FILE1
+1664846157.080816 -- INFO: starting 17, 3, /users/jamilm/files_to_Send/FILE3
+1664846157.552292 -- INFO: Throughput @183.2s:126.42Mbps, rtt :39.46ms cwnd: 22.5 lossRate: 0.0057195571955719554 CC:19 score:-80.0 
+1664846158.551666 -- INFO: Throughput @184.2s:132.71Mbps, rtt :39.54ms cwnd: 24.5 lossRate: 0.004673309231990125 CC:19 score:-85.0 
+1664846159.556595 -- INFO: Throughput @185.2s:146.29Mbps, rtt :39.22ms cwnd: 25.3 lossRate: 0.0040054474084755265 CC:19 score:-95.0 
+1664846160.242904 -- INFO: Gradient: -2.0, Gredient Change: 0.024193548387096774, Theta: 2, Previous CC: 18, Choosen CC: 20
+1664846160.243031 -- INFO: Changing concurrency to 19 ******
+1664846160.244836 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1664846160.245783 -- INFO: Active CC: 19
+1664846160.556262 -- INFO: Throughput @186.2s:138.02Mbps, rtt :39.22ms cwnd: 24.6 lossRate: 0.004915670819560979 CC:19 score:-88.0 
+1664846161.557425 -- INFO: Throughput @187.2s:143.46Mbps, rtt :39.3ms cwnd: 26.3 lossRate: 0.003879344469954873 CC:19 score:-93.0 
+1664846162.557976 -- INFO: Throughput @188.2s:135.13Mbps, rtt :39.38ms cwnd: 23.1 lossRate: 0.0061835917087615395 CC:19 score:-84.0 
+1664846163.446669 -- INFO: Changing concurrency to 21 ******
+1664846163.448056 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1664846163.448690 -- INFO: Start Process :: 19
+1664846163.448786 -- INFO: Start Process :: 20
+1664846163.449443 -- INFO: Active CC: 21
+1664846163.488251 -- INFO: Process 19 get item 12 from queue and executing
+1664846163.488368 -- INFO: Process 20 get item 7 from queue and executing
+1664846163.488682 -- INFO: starting 19, 12, /users/jamilm/files_to_Send/FILE2
+1664846163.488892 -- INFO: starting 20, 7, /users/jamilm/files_to_Send/FILE3
+1664846163.559416 -- INFO: Throughput @189.2s:127.04Mbps, rtt :39.54ms cwnd: 21.9 lossRate: 0.005049610205527994 CC:21 score:-77.0 
+1664846164.558933 -- INFO: Throughput @190.2s:145.21Mbps, rtt :39.37ms cwnd: 25.0 lossRate: 0.003872529245663574 CC:21 score:-90.0 
+1664846165.561465 -- INFO: Throughput @191.2s:150.98Mbps, rtt :39.35ms cwnd: 22.6 lossRate: 0.005390835579514825 CC:21 score:-91.0 
+1664846166.562568 -- INFO: Throughput @192.2s:145.7Mbps, rtt :39.11ms cwnd: 23.7 lossRate: 0.00444620881302104 CC:21 score:-90.0 
+1664846166.650368 -- INFO: Gradient: -1.0, Gredient Change: 0.011320754716981133, Theta: 3, Previous CC: 20, Choosen CC: 23
+1664846166.650523 -- INFO: Changing concurrency to 22 ******
+1664846166.651547 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1664846166.652476 -- INFO: Active CC: 22
+1664846166.652145 -- INFO: Start Process :: 21
+1664846166.691958 -- INFO: Process 21 get item 5 from queue and executing
+1664846166.692442 -- INFO: starting 21, 5, /users/jamilm/files_to_Send/FILE1
+1664846167.563175 -- INFO: Throughput @193.2s:134.76Mbps, rtt :40.09ms cwnd: 21.4 lossRate: 0.0074714573539288115 CC:22 score:-77.0 
+1664846168.564410 -- INFO: Throughput @194.2s:141.49Mbps, rtt :40.03ms cwnd: 19.9 lossRate: 0.007012142979305627 CC:22 score:-82.0 
+1664846169.564536 -- INFO: Throughput @195.3s:113.25Mbps, rtt :39.92ms cwnd: 19.1 lossRate: 0.006609749380335995 CC:22 score:-66.0 
+1664846169.853380 -- INFO: Changing concurrency to 24 ******
+1664846169.854047 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1664846169.854680 -- INFO: Active CC: 24
+1664846169.854856 -- INFO: Start Process :: 23
+1664846169.855073 -- INFO: Start Process :: 22
+1664846169.894315 -- INFO: Process 23 get item 13 from queue and executing
+1664846169.894706 -- INFO: Process 22 get item 2 from queue and executing
+1664846169.894750 -- INFO: starting 23, 13, /users/jamilm/files_to_Send/FILE1
+1664846169.895203 -- INFO: starting 22, 2, /users/jamilm/files_to_Send/FILE0
+1664846170.562566 -- INFO: Throughput @196.3s:125.35Mbps, rtt :39.36ms cwnd: 21.6 lossRate: 0.005133651973800672 CC:24 score:-71.0 
+1664846171.568214 -- INFO: Throughput @197.3s:162.39Mbps, rtt :39.51ms cwnd: 23.1 lossRate: 0.004745811461853743 CC:24 score:-93.0 
+1664846172.569983 -- INFO: Throughput @198.3s:164.96Mbps, rtt :39.53ms cwnd: 23.6 lossRate: 0.004827831025914093 CC:24 score:-95.0 
+1664846173.055586 -- INFO: Gradient: -5.666666666666664, Gredient Change: 0.07555555555555553, Theta: 4, Previous CC: 23, Choosen CC: 31
+1664846173.055753 -- INFO: Changing concurrency to 30 ******
+1664846173.056281 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1664846173.056560 -- INFO: Active CC: 30
+1664846173.056827 -- INFO: Start Process :: 24
+1664846173.057105 -- INFO: Start Process :: 25
+1664846173.057162 -- INFO: Start Process :: 28
+1664846173.057359 -- INFO: Start Process :: 27
+1664846173.057559 -- INFO: Start Process :: 26
+1664846173.057605 -- INFO: Start Process :: 29
+1664846173.096233 -- INFO: Process 24 get item 6 from queue and executing
+1664846173.096562 -- INFO: starting 24, 6, /users/jamilm/files_to_Send/FILE0
+1664846173.096619 -- INFO: Process 25 get item 8 from queue and executing
+1664846173.096688 -- INFO: Process 28 get item 11 from queue and executing
+1664846173.097017 -- INFO: starting 25, 8, /users/jamilm/files_to_Send/FILE2
+1664846173.097093 -- INFO: starting 28, 11, /users/jamilm/files_to_Send/FILE3
+1664846173.097266 -- INFO: Process 27 get item 14 from queue and executing
+1664846173.097477 -- INFO: Process 26 get item 24 from queue and executing
+1664846173.097682 -- INFO: starting 27, 14, /users/jamilm/files_to_Send/FILE0
+1664846173.097642 -- INFO: Process 29 get item 25 from queue and executing
+1664846173.097873 -- INFO: starting 26, 24, /users/jamilm/files_to_Send/FILE2
+1664846173.098293 -- INFO: starting 29, 25, /users/jamilm/files_to_Send/FILE1
+1664846173.570706 -- INFO: Throughput @199.3s:189.31Mbps, rtt :39.79ms cwnd: 22.2 lossRate: 0.004082413727116157 CC:30 score:-97.0 
+1664846174.554612 -- INFO: episode expires
+1664846174.554893 -- INFO: Process 30 shutdown itself from outest loop
+1664846174.554906 -- INFO: Process 31 shutdown itself from outest loop
+1664846174.555449 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1664846174.555442 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1664846176.257504 -- INFO: episode expires
+1664846176.452649 -- INFO: GD Optimizer Exits ...
+1664846176.749641 -- INFO: Throughput @0.1s:0.0Mbps, rtt :40.2ms cwnd: 20.3 lossRate: 0.004757691413660461 CC:0 score:-0.0 

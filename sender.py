@@ -51,11 +51,12 @@ if __name__=="__main__":
   parser = argparse.ArgumentParser()
   parser.add_argument("--algo", default="GD", type=str, required=True, help='Optimization Algorithm')
   parser.add_argument("--runtime", type=int, required=True,  help="duration of the run")
-  args = parser.parse_args()
-  identifier=args.algo+'_'+str(args.runtime)+'_'
-  transfer=TransferClass(configurations,log,transfer_emulation=True,runTime=args.runtime)
-  transferEnvironment=transferEnv(transfer,runTime=args.runtime,identity=identifier)
+  parser.add_argument("--identifier", type=str, required=True,  help="identifier for the run")
 
+  args = parser.parse_args()
+  identifier=args.algo+'_'+str(args.runtime)+'_'+args.identifier
+  transfer=TransferClass(configurations,log,transfer_emulation=False,runTime=args.runtime)
+  transferEnvironment=transferEnv(transfer,runTime=args.runtime,identity=identifier)
   transferEnvironment.reset()
   start_time=time.time()
   if args.algo=="GD":
