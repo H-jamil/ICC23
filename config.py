@@ -1,9 +1,9 @@
 configurations = {
     "receiver": {
-        "host": "128.110.218.223",
-        "port": 50028
+        "host": "128.110.218.233",
+        "port": 50021
     },
-    "data_dir": "/users/jamilm/files_to_Send/",#files_bash
+    "data_dir": "/users/jamilm/files_to_send/",#files_bash
     "bayes": {
         "initial_run": 3,
         "num_of_exp": -1

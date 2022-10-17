@@ -55,7 +55,7 @@ if __name__=="__main__":
 
   args = parser.parse_args()
   identifier=args.algo+'_'+str(args.runtime)+'_'+args.identifier
-  transfer=TransferClass(configurations,log,transfer_emulation=False,runTime=args.runtime)
+  transfer=TransferClass(configurations,log,transfer_emulation=True,runTime=args.runtime)
   transferEnvironment=transferEnv(transfer,runTime=args.runtime,identity=identifier)
   transferEnvironment.reset()
   start_time=time.time()
