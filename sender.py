@@ -55,7 +55,7 @@ if __name__=="__main__":
 
   args = parser.parse_args()
   identifier=args.algo+'_'+str(args.runtime)+'_'+args.identifier
-  transfer=TransferClass(configurations,log,transfer_emulation=True,runTime=args.runtime)
+  transfer=TransferClass(configurations,log,transfer_emulation=False,runTime=args.runtime)
   transferEnvironment=transferEnv(transfer,runTime=args.runtime,identity=identifier)
   transferEnvironment.reset()
   start_time=time.time()
@@ -66,7 +66,7 @@ if __name__=="__main__":
   elif args.algo=="BO":
     final_ccs=bayes_optimizer(transferEnvironment,configurations)
   else:
-    final_ccs=gradient_opt(transferEnvironment)
+    final_ccs=no_optimization(transferEnvironment)
   end_time=time.time()
   transferEnvironment.reset()
   total_bytes = np.sum(transfer.file_sizes)
