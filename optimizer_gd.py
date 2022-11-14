@@ -239,7 +239,7 @@ def no_optimization(transferEnvironment):
     theta = 0
 
     while True:
-        state,score,done,_=transferEnvironment.step(1)
+        state,score,done,_=transferEnvironment.step(32)
         values.append(score)
         if done:
             transferEnvironment.transferClassObject.log.info("No Optimizer Exits ...")
@@ -249,7 +249,7 @@ def no_optimization(transferEnvironment):
             least_cost = values[-1]
             soft_limit = min(ccs[-1]+10, max_thread)
 
-        state,score,done,_=transferEnvironment.step(1)
+        state,score,done,_=transferEnvironment.step(32)
         values.append(score)
         if done:
             transferEnvironment.transferClassObject.log.info("No Optimizer Exits ...")
